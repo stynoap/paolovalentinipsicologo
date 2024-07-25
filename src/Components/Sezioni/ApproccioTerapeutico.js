@@ -65,22 +65,6 @@ function ApproccioTerapeutico() {
             figure come il Saggio, l'Eroe, la Grande Madre, l'Ombra, e molti
             altri.
           </p>
-          <SubTitles text="concetti della psicologia analitico-archetipica" />
-          <ul>
-            <li>
-              <b>Inconscio Collettivo: </b>Una struttura della mente che
-              contiene esperienze e ricordi comuni a tutta l'umanità.
-            </li>
-            <li>
-              <b>Archetipi:</b> Modelli di comportamento e simboli universali
-              che emergono dall'inconscio collettivo.
-            </li>
-            <li>
-              {" "}
-              <b>Individuazione:</b> Il processo di realizzazione del sé
-              attraverso l'integrazione degli archetipi nell'individuo conscio.
-            </li>
-          </ul>
         </div>
       </div>
     </>
