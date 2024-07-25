@@ -1,5 +1,3 @@
-import aboutbg from "../../header-bg-emerald-600.png";
-
 function About() {
   return (
     <>

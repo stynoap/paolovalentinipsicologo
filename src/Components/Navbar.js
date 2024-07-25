@@ -14,7 +14,7 @@ function Navbar() {
           <p>
             {" "}
             <a
-              href="#"
+              href="/home"
               className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 text-sky-100 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
@@ -56,31 +56,31 @@ function Navbar() {
       >
         <div className="lg:flex lg:tracking-widest font-semibold lg:items-stretch lg:justify-end ml-auto mr-14">
           <a
-            href="#"
+            href="/chi-sono"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             chi sono
           </a>
           <a
-            href="#"
+            href="/servizi"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             servizi
           </a>
           <a
-            href="#"
+            href="/approccio-terapeutico"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             approccio terapeutico
           </a>
           <a
-            href="#"
+            href="/tariffe"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             tariffe
           </a>
           <a
-            href="#"
+            href="/contatti"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             contatti
