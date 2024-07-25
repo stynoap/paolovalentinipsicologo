@@ -56,15 +56,6 @@ function ApproccioTerapeutico() {
               </li>
             </ul>
           </p>
-          <SubTitles text="cos'è la psicologia analitico archetipica?" />
-          <p>
-            La psicologia analitico archetipica esplora come gli archetipi
-            influenzano il nostro comportamento, pensieri e emozioni. Gli
-            archetipi sono immagini e temi ricorrenti presenti nei miti, nelle
-            fiabe, nei sogni e nelle esperienze quotidiane. Essi includono
-            figure come il Saggio, l'Eroe, la Grande Madre, l'Ombra, e molti
-            altri.
-          </p>
         </div>
       </div>
     </>
