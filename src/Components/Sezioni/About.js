@@ -39,7 +39,7 @@ function About() {
             <li className="p-1 "> terapia di coppia</li>
           </ul>
 
-          <p className="text-sky-800 font-bold text-xl mt-5 bg-sky-50 rounded-2xl p-3">Nella terapia con l'adolescente valuto caso per caso se fare un primo incontro con i genitori</p>
+          <p className="text-sky-800 font-bold text-xl mt-5  p-3">Nella terapia con l'adolescente valuto caso per caso se fare un primo incontro con i genitori</p>
           <p className="lg:text-sky-700 text-sky-700 text-lg py-5">
             Opero invii a diverse figure professionali nell'ambito della salute
             mentale quali:
