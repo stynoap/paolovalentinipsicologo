@@ -4,24 +4,26 @@ import approcciobg from "../../header-bg-emerald.png";
 function ApproccioTerapeutico() {
   return (
     <>
-      <div  style={{
+      <div
+        style={{
           backgroundImage: `url(${approcciobg})`,
         }}
-        className=" py-8">
+        className=" py-8"
+      >
         <TitleSection text="L'approccio analitico-archetipico"></TitleSection>
         <div className="mt-14 leading-9 flex flex-col text-sky-900 tracking-wide font-medium mx-10 items-center w-fit">
-          <p>
-            <b>La psicologia analitico archetipica</b> è una branca della psicologia
-            che trova le sue radici nel lavoro pionieristico di <b>Carl Gustav
-            Jung</b>, uno dei fondatori della psicologia analitica. Questo approccio
-            si concentra sugli <b>archetipi</b>, che sono modelli universali di
-            comportamento e simboli che risiedono nell'inconscio collettivo, una
-            parte della psiche condivisa da tutta l'umanità. Il metodo
-            terapeutico della psicologia analitico archetipica si basa
-            sull'esplorazione e sull'integrazione degli archetipi presenti nella
-            vita di un individuo. Il processo terapeutico coinvolge diverse
-            tecniche e strumenti per portare alla luce gli archetipi inconsci e
-            lavorare con essi in modo consapevole.
+          <div>
+            <b>La psicologia analitico archetipica</b> è una branca della
+            psicologia che trova le sue radici nel lavoro pionieristico di{" "}
+            <b>Carl Gustav Jung</b>, uno dei fondatori della psicologia
+            analitica. Questo approccio si concentra sugli <b>archetipi</b>, che
+            sono modelli universali di comportamento e simboli che risiedono
+            nell'inconscio collettivo, una parte della psiche condivisa da tutta
+            l'umanità. Il metodo terapeutico della psicologia analitico
+            archetipica si basa sull'esplorazione e sull'integrazione degli
+            archetipi presenti nella vita di un individuo. Il processo
+            terapeutico coinvolge diverse tecniche e strumenti per portare alla
+            luce gli archetipi inconsci e lavorare con essi in modo consapevole.
             <ul>
               <li>
                 {" "}
@@ -54,7 +56,22 @@ function ApproccioTerapeutico() {
                 raggiungere una maggiore completezza e autenticità.
               </li>
             </ul>
-          </p>
+            <p>
+              L'appproccio analitico-archetipico ricalca in successione le
+              elaborazioni di C.G. Jung e James Hillman e torna a dare
+              centralità al cuore della psiche. Gli oggetti di studio di quella
+              che viene chiamata anche psicologia del profondo sono i processi
+              psichici puri che si esprimono tramite immagini, pensieri, agiti
+              modalità comportamentali e psicosomatiche. Attraverso
+              l'individuazione dell'Es anche Freud si occupa di profondità
+              psichiche ma Jung opera subito un distacco teorico che ha inizio
+              con la riconsiderazione dell'energia psichica, la libido, che egli
+              valuta e approfondisce non solo come collegata alle manifestazioni
+              pulsionali ma anche agli archetipii, quindi è indirizzata a
+              finalità creative e di realizzazione della psiche, nello specifico
+              il processo di individuazione e il Sé.
+            </p>
+          </div>
         </div>
       </div>
     </>
