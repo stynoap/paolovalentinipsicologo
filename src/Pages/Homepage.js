@@ -8,6 +8,7 @@ import { servizi } from "../data";
 import TitleSection from "../Components/TitleSection";
 import servizibg from "./../header-bg-emerald-100.png";
 import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
+import PrimaryButton from "../Components/PrimaryButton";
 function Homepage() {
   return (
     <>
@@ -27,7 +28,7 @@ function Homepage() {
               }}
             ></div>
             <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5   ">
-              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left  text-sky-100 lg:ml-16">
+              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-sky-100 lg:ml-16">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 32 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
                 psicologi delle Marche (n°3136). <br /> Mi sono laureato nella
@@ -38,11 +39,9 @@ function Homepage() {
                 Ho maturato esperienze con gli <b>adolescenti.</b> <br /> Cerco
                 a mio modo di educere, cioè di trarre fuori.
               </p>
-              <p className="lg:text-sky-100 text-sky-800 lg:mt-3 relative lg:top-0 top-16 px-3">
-                Frequento il secondo anno della scuola di{" "}
-                <b>psicoterapia analitica-archetipico-gestaltica "Atanor"</b>{" "}
-                che mi accompagna nello studio della psicologia del profondo.{" "}
-              </p>
+         
+            
+              <PrimaryButton testo="Contattami"/>
             </div>
           </div>
           <div className="mt-0 relative bottom-24">

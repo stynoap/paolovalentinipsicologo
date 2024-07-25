@@ -3,7 +3,7 @@ function LoStudio(){
     return(<>
     <div  style={{
           backgroundImage: `url(${fotostudio})`,
-        }} className=" my-6 h-96 bg-zinc-900 w-full"></div>
+        }} className=" my-6  bg-no-repeat h-96 w-5/5 bg-center"></div>
     </>)
 }
 

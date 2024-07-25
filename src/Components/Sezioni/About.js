@@ -1,5 +1,6 @@
 import TitleSection from "../TitleSection";
 import LoStudio from "./LoStudio";
+import PrimaryButton from "../PrimaryButton";
 
 function About() {
   return (
@@ -24,15 +25,28 @@ function About() {
             altri disturbi psicotici nel setting della terapia individuale con
             orientamento psicodinamico e analitico.
           </p>
+
+          <p className="lg:text-sky-700 my-6 text-sky-800 font-medium text-xl w-3/4 py-5">
+            Attualmente frequento il secondo anno della scuola di{" "}
+            <b>psicoterapia analitica-archetipico-gestaltica "Atanor"</b> che mi
+            accompagna nello studio della <b>psicologia del profondo.</b>{" "}
+          </p>
           <div className="bg-sky-50 w-full py-10">
             <TitleSection text="Lo studio" />
             <LoStudio />
-            <p className="text-slate-700 px-2 py-6">Lo studio si trova al <b>Centro di psicologia e psicoterapia - Legami</b> Via Italia, 32, 63813 Monte Urano (FM)</p>
+            <p className="text-slate-700 px-2 py-6">
+              Mi potete trovare al{" "}
+              <b>Centro di psicologia e psicoterapia - Legami</b> Via Italia,
+              32, 63813 Monte Urano (FM)
+            </p>
+
+
             <div className="flex flex-col justify-center items-center text-slate-700 ">
               <p className="font-medium bg-opacity-10  lg:text-xl w-fit rounded-xl py-2 lg:px-20 px-3 ">
                 {" "}
-                Nello studio al centro <b>Legami</b> mi occupo di adolescenti e adulti e nello specifico fornisco{" "}
-                <b>sostegno psicologico</b> per{" "}
+                Nello studio al centro <b>Legami</b> mi occupo di adolescenti e
+                adulti e nello specifico fornisco <b>sostegno psicologico</b>{" "}
+                per{" "}
               </p>
 
               <ul className=" w-3/5 flex rounded-xl flex-col gap-2 tracking-wider lg:text-lg font-bold px-7 py-2 text-slate-700">
@@ -57,9 +71,11 @@ function About() {
               salute mentale quali:
             </p>
 
-            <p className="font-bold text-center lg:text-slate-700 text-lg text-slate-700">
+            <p className="font-bold text-center lg:text-slate-700 text-lg text-slate-700 mb-7">
               psicoterapeuti, psichiatri, neurologi, psicodiagnosti.
             </p>
+
+            <PrimaryButton testo="Prenota un appuntamento" />
           </div>
         </div>
       </div>
