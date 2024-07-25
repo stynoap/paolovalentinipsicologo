@@ -1,10 +1,12 @@
+import TitleSection from "../TitleSection";
+import LoStudio from "./LoStudio";
+
 function About() {
   return (
     <>
       <div className=" py-1 mb-16">
         <div className="flex flex-col items-center lg:-mt-28">
-          
-          <h1 className="lg:text-5xl text-2xl font-semibold  mb-5 lg:mb-9 text-sky-800">
+          <h1 className="lg:text-5xl text-3xl font-semibold  mb-5 lg:mb-9 text-sky-800">
             Dott. Paolo Valentini
           </h1>
           <p className="w-3/4 my-6 text-sky-700 text-xl font-medium leading-9 tracking-wide">
@@ -18,36 +20,47 @@ function About() {
             integrato al corso di studi universitario modalità e diversi appocci
             specifici di intervento. Ho approfondito i temi della mia tesi di
             laurea magistrale attraverso un lavoro di ricerca scientifica con un
-            focus specifico verso i disturbi dello spettro della schizofrenia e altri
-            disturbi psicotici
-            nel setting della terapia individuale con orientamento psicodinamico
-            e analitico.
+            focus specifico verso i disturbi dello spettro della schizofrenia e
+            altri disturbi psicotici nel setting della terapia individuale con
+            orientamento psicodinamico e analitico.
           </p>
-          <p className="font-medium bg-opacity-10 lg:text-emerald-700 border-emerald-100 lg:border-t-4 text-sky-700 lg:text-xl  lg:bg-emerald-100 w-fit rounded-xl py-2 px-20 ">
-            {" "}
-            Mi occupo di adolescenti e adulti e nello specifico fornisco{" "}
-            <b>sostegno psicologico</b> per{" "}
-          </p>
+          <div className="bg-sky-50 w-full py-10">
+            <TitleSection text="Lo studio" />
+            <LoStudio />
+            <p className="text-slate-700 px-2 py-6">Lo studio si trova al <b>Centro di psicologia e psicoterapia - Legami</b> Via Italia, 32, 63813 Monte Urano (FM)</p>
+            <div className="flex flex-col justify-center items-center text-slate-700 ">
+              <p className="font-medium bg-opacity-10  lg:text-xl w-fit rounded-xl py-2 lg:px-20 px-3 ">
+                {" "}
+                Nello studio al centro <b>Legami</b> mi occupo di adolescenti e adulti e nello specifico fornisco{" "}
+                <b>sostegno psicologico</b> per{" "}
+              </p>
 
-          <ul className=" w-3/5 flex rounded-xl flex-col gap-2 tracking-wider lg:text-lg font-bold px-7 py-2 text-sky-800">
-            <li className="py-1 ">disturbi d'ansia </li>
-            <li className="p-1 ">disturbi dell'umore e della depressione </li>
-            <li className="p-1 ">disturbi ossessivi-compulsivi</li>
-            <li className="p-1 "> disturbi da Stress Post-Traumatico</li>
-            <li className="p-1 "> disturbi di personalità</li>
-            <li className="p-1 "> schizofrenia</li>
-            <li className="p-1 "> terapia di coppia</li>
-          </ul>
+              <ul className=" w-3/5 flex rounded-xl flex-col gap-2 tracking-wider lg:text-lg font-bold px-7 py-2 text-slate-700">
+                <li className="py-1 ">disturbi d'ansia </li>
+                <li className="p-1 ">
+                  disturbi dell'umore e della depressione{" "}
+                </li>
+                <li className="p-1 ">disturbi ossessivi-compulsivi</li>
+                <li className="p-1 "> disturbi da Stress Post-Traumatico</li>
+                <li className="p-1 "> disturbi di personalità</li>
+                <li className="p-1 "> schizofrenia</li>
+                <li className="p-1 "> terapia di coppia</li>
+              </ul>
+            </div>
 
-          <p className="text-sky-800 font-bold text-xl mt-5  p-3">Nella terapia con l'adolescente valuto caso per caso se fare un primo incontro con i genitori</p>
-          <p className="lg:text-sky-700 text-sky-700 text-lg py-5">
-            Opero invii a diverse figure professionali nell'ambito della salute
-            mentale quali:
-          </p>
+            <p className="text-slate-600 font-bold text-xl mt-5  p-3">
+              Nella terapia con l'adolescente valuto caso per caso se fare un
+              primo incontro con i genitori
+            </p>
+            <p className="lg:text-slate-600 text-sky-700 text-lg py-5">
+              Opero invii a diverse figure professionali nell'ambito della
+              salute mentale quali:
+            </p>
 
-          <p className="font-bold text-center lg:text-sky-700 text-lg text-sky-700">
-            psicoterapeuti, psichiatri, neurologi, psicodiagnosti.
-          </p>
+            <p className="font-bold text-center lg:text-slate-700 text-lg text-slate-700">
+              psicoterapeuti, psichiatri, neurologi, psicodiagnosti.
+            </p>
+          </div>
         </div>
       </div>
     </>
