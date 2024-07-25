@@ -62,7 +62,7 @@ function Homepage() {
         className=" py-8"
       >
         <TitleSection text="I Servizi" />
-        <div className="flex flex-col lg:flex-row lg:flex-wrap">
+        <div className="mt-8 flex flex-col lg:flex-row lg:flex-wrap">
           {servizi.map((servizio, index) => (
             <Servizio
               key={index}
