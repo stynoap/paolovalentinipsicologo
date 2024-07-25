@@ -1,4 +1,3 @@
-import SubTitles from "../SubTitles";
 import TitleSection from "../TitleSection";
 import approcciobg from "../../header-bg-emerald.png";
 
