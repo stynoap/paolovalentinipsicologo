@@ -40,6 +40,7 @@ function FormContatto() {
               rows="8"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo messaggio"
+              type="text"
               name="testo-del-messaggio"
               id="message"
               required
