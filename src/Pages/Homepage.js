@@ -77,27 +77,7 @@ function Homepage() {
 
       <ApproccioTerapeutico />
       <Contattami />
-      <form name="contact" netlify>
-        <div>
-          <label for="full-name">
-            Nome: <input id="full-name" type="text" name="full-name" required />
-          </label>
-        </div>
-        <div>
-          <label for="email">
-            Email: <input id="email" type="email" name="email" required />
-          </label>
-        </div>
-        <div>
-          <label for="messaggio">
-            Messaggio:{" "}
-            <textarea id="messaggio" name="messaggio" required></textarea>
-          </label>
-        </div>
-        <p>
-          <button type="submit">manda</button>
-        </p>
-      </form>
+     
       <IndicazioniStudio />
     </>
   );
