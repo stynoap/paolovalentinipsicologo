@@ -5,15 +5,11 @@ function FormContatto() {
         name="contact"
         method="POST"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        
         class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
       >
-          <input type="hidden" name="form-name" value="contact" />
-          <p hidden>
-        <label>
-          Non riempire questo campo: <input name="bot-field" />
-        </label>
-      </p>
+          
+      
         <div class="text-3xl mb-6 text-center ">Contattami</div>
 
         <div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
