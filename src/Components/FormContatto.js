@@ -1,7 +1,7 @@
 function FormContatto() {
   return (
     <>
-      <form
+      {/* <form
         name="contact"
         
         data-netlify="true"
@@ -12,7 +12,7 @@ function FormContatto() {
         {/* <div class="text-3xl mb-6 text-center ">Contattami</div>
 
         <div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
-          <p class="col-span-2 lg:col-span-1"> */}
+          <p class="col-span-2 lg:col-span-1"> 
             <input
               type="text"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
@@ -23,7 +23,7 @@ function FormContatto() {
             />
           {/* </p> */}
 
-          {/* <p class="col-span-2 lg:col-span-1"> */}
+      {/* <p class="col-span-2 lg:col-span-1"> 
             <input
               type="text"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
@@ -34,7 +34,7 @@ function FormContatto() {
             />
           {/* </p> */}
 
-          {/* <p class="col-span-2"> */}
+      {/* <p class="col-span-2"> 
             <textarea
               cols="30"
               rows="8"
@@ -47,7 +47,7 @@ function FormContatto() {
             ></textarea>
           {/* </p> */}
 
-          {/* <div class="col-span-2 text-right"> */}
+      {/* <div class="col-span-2 text-right"> 
             <button
               type="submit"
               class="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32"
@@ -55,7 +55,22 @@ function FormContatto() {
               Invia
             </button>
           {/* </div>
-        </div> */}
+        </div> 
+      </form> */}
+      <form name="contact" netlify>
+        <p>
+          <label>
+            Name <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Email <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
     </>
   );
