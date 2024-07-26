@@ -1,17 +1,31 @@
+
+
+
+
 function FormContatto() {
   const handleFormSubmission = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-
-    // Rimuovi Content-Type se usi FormData
-    // Rimuovi anche l'azione per evitare doppio invio da parte del browser
-    await fetch("/", {
-      method: "POST",
-      body: new URLSearchParams(formData).toString(),
-    })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => console.error("Error submitting form:", error));
+    
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+      
+      if (response.ok) {
+        console.log("Form successfully submitted");
+        // Redirect or show a success message
+        // window.location.href = "/pages/success";
+      } else {
+        console.error("Error submitting form:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
+
 
   return (
     <>
