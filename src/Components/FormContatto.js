@@ -1,7 +1,8 @@
 function FormContatto() {
   return (
     <>
-      <div class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
+      <form name="form-contatto" data-netlify="true" class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
+        <input type="hidden" name="form-name" value="form-contatto" ></input>
         <div class="text-3xl mb-6 text-center ">
           Contattami
         </div>
@@ -33,12 +34,12 @@ function FormContatto() {
           </div>
 
           <div class="col-span-2 text-right">
-            <button class="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32">
+            <button type="submit" class="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32">
               Invia
             </button>
           </div>
         </div>
-      </div>
+      </form>
     </>
   );
 }

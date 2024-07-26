@@ -15,21 +15,19 @@ function MapComponent() {
   const position = [43.1898634, 13.6606903]; // Cambia con le coordinate della tua azienda
   return (
     <>
-      <div>
-        <MapContainer
-          center={position}
-          zoom={13}
-          style={{ height: "400px", width: "100%" }}
-        >
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          />
-          <Marker position={position}>
-            <Popup>La tua azienda qui.</Popup>
-          </Marker>
-        </MapContainer>
-      </div>
+      <MapContainer
+        center={position}
+        zoom={13}
+        style={{ height: "400px", width: "50%" }}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        <Marker position={position}>
+          <Popup>La tua azienda si trova qui..</Popup>
+        </Marker>
+      </MapContainer>
     </>
   );
 }

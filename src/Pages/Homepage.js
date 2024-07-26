@@ -11,7 +11,7 @@ import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
 import PrimaryButton from "../Components/PrimaryButton";
 import Tariffe from "../Components/Sezioni/Tariffe";
 import Contattami from "../Components/Sezioni/Contattami";
-import MapComponent from "../Components/MapComponent";
+import IndicazioniStudio from "../Components/Sezioni/IndicazioniStudio";
 function Homepage() {
   return (
     <>
@@ -79,7 +79,7 @@ function Homepage() {
 
       <ApproccioTerapeutico />
       <Contattami />
-      <MapComponent />
+    <IndicazioniStudio />
     </>
   );
 }
