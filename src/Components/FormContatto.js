@@ -7,7 +7,7 @@ function FormContatto() {
         data-netlify="true"
         class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
       >
-        <input type="hidden" name="contatc" value="contact"></input>
+        <input type="hidden" name="contact" value="contact"></input>
       
         {/* <div class="text-3xl mb-6 text-center ">Contattami</div>
 
