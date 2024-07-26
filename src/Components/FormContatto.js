@@ -46,8 +46,8 @@ function FormContatto() {
               type="text"
               className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Nome"
-              name="Nome"
-              id="Nome"
+              name="nome"
+              id="nome"
               required
             />
           </p>
