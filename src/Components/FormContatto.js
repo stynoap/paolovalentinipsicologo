@@ -80,7 +80,7 @@ function FormContatto() {
         </label>
       </div>
       <p>
-        <button type="submit">Invia</button>
+        <button type="submit">manda</button>
       </p>
     </form>
     </>
