@@ -1,7 +1,7 @@
 function FormContatto() {
   return (
     <>
-      <form name="form-contatto" data-netlify="true" class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
+      <form name="form-contatto" netlify class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
         <input type="hidden" name="form-name" value="form-contatto" ></input>
         <div class="text-3xl mb-6 text-center ">
           Contattami
@@ -13,6 +13,7 @@ function FormContatto() {
               type="text"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Nome"
+              name="Nome"
             />
           </div>
 
@@ -21,6 +22,7 @@ function FormContatto() {
               type="text"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo indirizzo email"
+              name="indirizzo-email"
             />
           </div>
 
@@ -30,6 +32,7 @@ function FormContatto() {
               rows="8"
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo messaggio"
+              name="testo-del-messaggio"
             ></textarea>
           </div>
 
