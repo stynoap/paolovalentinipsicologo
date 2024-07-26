@@ -4,7 +4,6 @@ function FormContatto() {
       <form
         name="contact"
         method="POST"
-        netlify
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
