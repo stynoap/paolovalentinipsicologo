@@ -2,32 +2,35 @@ function FormContatto() {
   const handleFormSubmission = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
+
+    // Rimuovi Content-Type se usi FormData
+    // Rimuovi anche l'azione per evitare doppio invio da parte del browser
     await fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
     .then(() => console.log("Form successfully submitted"))
     .catch((error) => console.error("Error submitting form:", error));
   };
+
   return (
     <>
       <form
         name="contact"
         onSubmit={handleFormSubmission}
-        netlify
-        class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
-        action="/pages/success"
+        // Rimuovi data-netlify="true" se usi fetch
+        className="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
+        // action="/" // Rimuovi action se usi fetch
       >
-        <input type="hidden" name="contact" value="contact"></input>
+        <input type="hidden" name="form-name" value="contact"></input>
 
-        <div class="text-3xl mb-6 text-center ">Contattami</div>
+        <div className="text-3xl mb-6 text-center">Contattami</div>
 
-        <div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
-          <p class="col-span-2 lg:col-span-1">
+        <div className="grid grid-cols-2 gap-4 max-w-xl m-auto">
+          <p className="col-span-2 lg:col-span-1">
             <input
               type="text"
-              class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Nome"
               name="Nome"
               id="Nome"
@@ -35,10 +38,10 @@ function FormContatto() {
             />
           </p>
 
-          <p class="col-span-2 lg:col-span-1">
+          <p className="col-span-2 lg:col-span-1">
             <input
               type="text"
-              class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo indirizzo email"
               name="indirizzo-email"
               id="email"
@@ -46,23 +49,22 @@ function FormContatto() {
             />
           </p>
 
-          <p class="col-span-2">
+          <p className="col-span-2">
             <textarea
               cols="30"
               rows="8"
-              class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo messaggio"
-              type="text"
               name="testo-del-messaggio"
               id="message"
               required
             ></textarea>
           </p>
 
-          <div class="col-span-2 text-right">
+          <div className="col-span-2 text-right">
             <button
               type="submit"
-              class="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32"
+              className="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32"
             >
               Invia
             </button>
