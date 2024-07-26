@@ -57,7 +57,7 @@ function FormContatto() {
           {/* </div>
         </div> 
       </form> */}
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
         <input
           type="hidden"
           name="subject"
