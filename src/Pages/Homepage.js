@@ -9,6 +9,9 @@ import TitleSection from "../Components/TitleSection";
 import servizibg from "./../header-bg-emerald-100.png";
 import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
 import PrimaryButton from "../Components/PrimaryButton";
+import Tariffe from "../Components/Sezioni/Tariffe";
+import Contattami from "../Components/Sezioni/Contattami";
+import MapComponent from "../Components/MapComponent";
 function Homepage() {
   return (
     <>
@@ -39,9 +42,8 @@ function Homepage() {
                 Ho maturato esperienze con gli <b>adolescenti.</b> <br /> Cerco
                 a mio modo di educere, cioè di trarre fuori.
               </p>
-         
-            
-              <PrimaryButton testo="Contattami"/>
+
+              <PrimaryButton testo="Contattami" />
             </div>
           </div>
           <div className="mt-0 relative bottom-24">
@@ -54,7 +56,6 @@ function Homepage() {
       </div>
       <About />
 
-      <ApproccioTerapeutico />
       <div
         style={{
           backgroundImage: `url(${servizibg})`,
@@ -72,6 +73,13 @@ function Homepage() {
           ))}
         </div>
       </div>
+      <Tariffe />
+
+
+
+      <ApproccioTerapeutico />
+      <Contattami />
+      <MapComponent />
     </>
   );
 }

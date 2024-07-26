@@ -16,14 +16,19 @@ function About() {
             all'educativa scolastica, ho avuto esperienze lavorative e di
             tirocinio nell'ambito di comunità residenziali per la salute
             mentale, nelle comunità per tossicodipenti e negli attuali sistemi
-            di accoglienza e integrazione. Ho continuato la formazione in
-            Psicologia tramite un tirocinio nell'università di Urbino in cui ho
-            integrato al corso di studi universitario modalità e diversi appocci
-            specifici di intervento. Ho approfondito i temi della mia tesi di
-            laurea magistrale attraverso un lavoro di ricerca scientifica con un
-            focus specifico verso i disturbi dello spettro della schizofrenia e
-            altri disturbi psicotici nel setting della terapia individuale con
-            orientamento psicodinamico e analitico.
+            di accoglienza e integrazione.
+            <br />
+            <br />
+            Ho continuato la formazione in Psicologia tramite un tirocinio
+            nell'università di Urbino in cui ho integrato al corso di studi
+            universitario modalità e diversi appocci specifici di intervento.
+            <br />
+            <br />
+            Ho approfondito i temi della mia tesi di laurea magistrale
+            attraverso un lavoro di ricerca scientifica con un focus specifico
+            verso i disturbi dello spettro della schizofrenia e altri disturbi
+            psicotici nel setting della terapia individuale con orientamento
+            psicodinamico e analitico.
           </p>
 
           <p className="lg:text-sky-700 my-6 text-sky-700 font-medium leading-9 text-xl w-3/4 py-5">
@@ -31,15 +36,14 @@ function About() {
             <b>psicoterapia analitica-archetipico-gestaltica "Atanor"</b> che mi
             accompagna nello studio della <b>psicologia del profondo.</b>{" "}
           </p>
-          <div className="bg-sky-50 w-full py-10">
+          <div className="bg-sky-50 py-10 rounded-3xl">
             <TitleSection text="Lo studio" />
             <LoStudio />
-            <p className="text-slate-700 px-2 py-6">
+            <p className="text-slate-700 px-2 py-6 text-xl">
               Mi potete trovare al{" "}
               <b>Centro di psicologia e psicoterapia - Legami</b> Via Italia,
               32, 63813 Monte Urano (FM)
             </p>
-
 
             <div className="flex flex-col justify-center items-center text-slate-700 ">
               <p className="font-medium bg-opacity-10  lg:text-xl w-fit rounded-xl py-2 lg:px-20 px-3 ">
