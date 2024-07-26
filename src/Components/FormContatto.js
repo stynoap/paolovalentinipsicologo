@@ -2,7 +2,6 @@ function FormContatto() {
   return (
     <>
       <form name="form-contatto" netlify class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
-        <input type="hidden" name="form-name" value="form-contatto" ></input>
         <div class="text-3xl mb-6 text-center ">
           Contattami
         </div>
