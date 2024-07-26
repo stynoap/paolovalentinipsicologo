@@ -57,15 +57,25 @@ function FormContatto() {
           {/* </div>
         </div> 
       </form> */}
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
+        <input
+          type="hidden"
+          name="subject"
+          value="Sales inquiry from mysitename.netlify.app"
+        />
         <p>
           <label>
-            Name <input type="text" name="name" />
+            Your Name: <input type="text" name="name" />
           </label>
         </p>
         <p>
           <label>
-            Email <input type="email" name="email" />
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message"></textarea>
           </label>
         </p>
         <p>
