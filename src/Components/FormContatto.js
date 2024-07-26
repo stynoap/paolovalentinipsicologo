@@ -18,6 +18,7 @@ function FormContatto() {
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Nome"
               name="Nome"
+              id="Nome"
               required
             />
           {/* </p> */}
@@ -28,6 +29,7 @@ function FormContatto() {
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo indirizzo email"
               name="indirizzo-email"
+              id="email"
               required
             />
           {/* </p> */}
@@ -39,6 +41,7 @@ function FormContatto() {
               class="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo messaggio"
               name="testo-del-messaggio"
+              id="message"
               required
             ></textarea>
           {/* </p> */}
