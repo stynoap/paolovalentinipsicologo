@@ -15,9 +15,9 @@ function FormContatto() {
       <form
         name="contact"
         onSubmit={handleFormSubmission}
-        data-netlify="true"
+        netlify
         class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10"
-        action="/"
+        action="/pages/success"
       >
         <input type="hidden" name="contact" value="contact"></input>
 
