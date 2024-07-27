@@ -5,7 +5,7 @@ import paolovalentini from "../paolovalentini-prf.png";
 import Servizio from "../Components/Sezioni/Servizio";
 import { servizi } from "../data";
 import TitleSection from "../Components/TitleSection";
-import servizibg from "./../header-bg-emerald-100.png";
+// import servizibg from "./../header-bg-emerald-100.png";
 import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
 import PrimaryButton from "../Components/PrimaryButton";
 import Tariffe from "../Components/Sezioni/Tariffe";
@@ -62,9 +62,9 @@ function Homepage() {
       <SostegnoPsicologico />
 
       <div
-        style={{
-          backgroundImage: `url(${servizibg})`,
-        }}
+        // style={{
+        //   backgroundImage: `url(${servizibg})`,
+        // }}
         className=" py-8"
       >
         <TitleSection text="I Servizi" />
