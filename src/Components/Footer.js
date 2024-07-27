@@ -1,4 +1,7 @@
+import logo from "./../logo_paolo_valentini.png"
+
 function Footer(){
+
     return <>
     
 
@@ -7,7 +10,7 @@ function Footer(){
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
+                  <img src={logo} class="h-8 me-3" alt="Paolo Valentini Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Paolo Valentini</span>
               </a>
           </div>
