@@ -12,6 +12,8 @@ import PrimaryButton from "../Components/PrimaryButton";
 import Tariffe from "../Components/Sezioni/Tariffe";
 import Contattami from "../Components/Sezioni/Contattami";
 import IndicazioniStudio from "../Components/Sezioni/IndicazioniStudio";
+import SostegnoPsicologico from "../Components/Sezioni/SostegnoPsicologico";
+import Formazione from "../Components/Sezioni/Formazione";
 function Homepage() {
   return (
     <>
@@ -55,6 +57,8 @@ function Homepage() {
         </div>
       </div>
       <About />
+      <Formazione />
+      <SostegnoPsicologico />
 
       <div
         style={{
