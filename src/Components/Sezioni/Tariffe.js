@@ -10,6 +10,7 @@ function Tariffe() {
         <PriceCard servizio="Colloquio psicologico individuale" prezzo="40" />
         <PriceCard servizio="Colloquio psicologico di coppia" prezzo="60" />
       </div>
+      <p className="font-bold text-md py-10">*il costo della seduta potrà essere concordabile in base a neccessità e redito</p>
       </div>
      
     </>
