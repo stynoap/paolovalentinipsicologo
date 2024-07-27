@@ -15,13 +15,13 @@ function Navbar() {
             {" "}
             <a
               href="/"
-              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-slate-100 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
             </a>
           </p>
 
-          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark">
+          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-slate-100 no-underline flex items-center hover:bg-grey-dark">
             psicologo
           </p>
         </div>
@@ -32,7 +32,7 @@ function Navbar() {
         >
           {isOpen ? (
             <svg
-              className="fill-current text-sky-100"
+              className="fill-current text-slate-100"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -40,7 +40,7 @@ function Navbar() {
             </svg>
           ) : (
             <svg
-              className="fill-current text-sky-100"
+              className="fill-current text-slate-100"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -56,32 +56,38 @@ function Navbar() {
       >
         <div className="lg:flex lg:tracking-widest font-semibold lg:items-stretch lg:justify-end ml-auto mr-14">
           <a
+            href="/"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+          >
+            home
+          </a>
+          <a
             href="#chi-sono"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             chi sono
           </a>
           <a
             href="#servizi"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             servizi
           </a>
           <a
             href="#approccio-terapeutico"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             approccio terapeutico
           </a>
           <a
             href="#tariffe"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             tariffe
           </a>
           <a
             href="#contattami"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100 hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             contatti
           </a>

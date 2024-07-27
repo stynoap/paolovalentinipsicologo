@@ -1,9 +1,9 @@
 
 
 export const servizi = [
-    { title: "Sostegno psicologico", description: "Il sostegno psicologico è blablabla" },
-    { title: "Terapia di coppia", description: "La consulenza psicologica è blablabla" },
-    { title: "Orientamento", description: "L'orientamento è blablabla" },
+    { title: "Sostegno psicologico", description: "Sostegno psicologico per adulti, minori e adolescenti" },
+    { title: "Terapia di coppia", description: "consulenza psicologica e sostegno alle coppie, online e in presenza" },
+    { title: "Consulenza online", description: "Offro consulenza e sostegno psicogico online tramite le piattaforme skype, whatsapp e google meet" },
 
   ];
 

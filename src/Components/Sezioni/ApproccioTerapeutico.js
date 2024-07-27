@@ -2,19 +2,23 @@ import TitleSection from "../TitleSection";
 // import approcciobg from "../../header-bg-emerald.png";
 import SubTitles from "../SubTitles";
 import SecondaryButton from "../SecondaryButton";
+import { useNavigate } from "react-router-dom";
 
 function ApproccioTerapeutico() {
+  const navigate = useNavigate();
   return (
     <>
       <div
         // style={{
         //   backgroundImage: `url(${approcciobg})`,
         // }}
-        className=" py-8 "
+        className=" py-8 mt-28 w-12/12 flex flex-col items-center justify-center "
         id="approccio-terapeutico"
+        
       >
-        <div className="w-9-12">
-          <div className="mt-14 leading-9 gap-4 flex flex-col text-slate-900 tracking-wide font-medium mx-10 items-center w-fit">
+        <TitleSection text="L'approccio analitico-archetipico"></TitleSection>
+        <div className="lg:w-8/12 ">
+          <div className="mt-14 leading-9 gap-4 flex flex-col text-slate-900 tracking-wide font-medium mx-10 text-left items-center w-fit">
             <div>
               <SubTitles text="La psicologia analitica" />
               <p>
@@ -64,10 +68,14 @@ function ApproccioTerapeutico() {
                 primaria necessaria al pensare psicologico.
               </p>
             </div>
-            <SecondaryButton text="Approfondisci" />
+            <SecondaryButton
+              onclick={() => {
+                navigate("/approccio");
+              }}
+              text="Approfondisci"
+            />
           </div>
         </div>
-        <TitleSection text="L'approccio analitico-archetipico"></TitleSection>
       </div>
     </>
   );

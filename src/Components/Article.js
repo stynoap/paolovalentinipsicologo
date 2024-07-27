@@ -4,13 +4,13 @@ import approccioImg from "../photo_approccio.jpg";
 
 function Article() {
   return (
-    <article className="w-11/12 mx-auto mt-5 shadow-md mb-5 shadow-slate-300 p-3 px-7 bg-emerald-50  bg-opacity-40">
+    <article className="w-11/12 mx-auto mt-5 shadow-md mb-5 py-7 shadow-slate-300 p-3 px-7 leading-9 tracking-wide bg-slate-50  bg-opacity-40">
       <TitleSection text={"L'approccio analitico archetipico"}></TitleSection>
       <div className="mt-6 text-left">
         <img
           src={approccioImg}
           alt="immagine alchemica"
-          className="lg:float-left mr-4 mb-4 lg:w-1/5"
+          className="lg:float-left mr-4 mb-2 lg:w-1/5 rounded-md"
         />
          <b>L'approccio analitico-archetipico</b> ricalca in successione le
         elaborazioni di <b>C.G. Jung</b> e <b>James Hillman</b> e torna a dare centralità al

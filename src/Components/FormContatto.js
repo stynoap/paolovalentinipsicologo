@@ -35,7 +35,7 @@ function FormContatto() {
       >
         <input type="hidden" name="form-name" value="contact"></input>
 
-        <div className="text-3xl mb-6 text-center">Contattami</div>
+        <div className="text-3xl mb-6 text-center">Scrivimi</div>
 
         <div className="grid grid-cols-2 gap-4 max-w-xl m-auto">
           <p className="col-span-2 lg:col-span-1">
@@ -56,6 +56,16 @@ function FormContatto() {
               placeholder="Il tuo indirizzo email"
               name="indirizzo-email"
               id="email"
+              required
+            />
+          </p>
+          <p className="col-span-2 lg:col-span-2">
+            <input
+              type="number"
+              className="border-solid border-slate-600 border-2 p-3 md:text-xl w-full"
+              placeholder="Il tuo numero di telefono"
+              name="cellulare"
+              id="cellulare"
               required
             />
           </p>

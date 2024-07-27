@@ -9,11 +9,11 @@ import TitleSection from "../Components/TitleSection";
 import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
 import PrimaryButton from "../Components/PrimaryButton";
 import Tariffe from "../Components/Sezioni/Tariffe";
-import Contattami from "../Components/Sezioni/Contattami";
 import IndicazioniStudio from "../Components/Sezioni/IndicazioniStudio";
 import SostegnoPsicologico from "../Components/Sezioni/SostegnoPsicologico";
 import Formazione from "../Components/Sezioni/Formazione";
 import Studio from "../Components/Sezioni/Studio";
+import Contatti from "../Components/Contatti";
 function Homepage() {
   return (
     <>
@@ -45,7 +45,7 @@ function Homepage() {
                 a mio modo di educere, cioè di trarre fuori.
               </p>
 
-              <PrimaryButton testo="Contattami" />
+              <PrimaryButton href="#contattami" testo="Contattami" />
             </div>
           </div>
           <div className="mt-0 relative bottom-24">
@@ -81,7 +81,7 @@ function Homepage() {
       <Tariffe />
 
       <ApproccioTerapeutico />
-      <Contattami />
+      <Contatti />
      
       <IndicazioniStudio />
     </>
