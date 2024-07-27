@@ -14,6 +14,7 @@ import Contattami from "../Components/Sezioni/Contattami";
 import IndicazioniStudio from "../Components/Sezioni/IndicazioniStudio";
 import SostegnoPsicologico from "../Components/Sezioni/SostegnoPsicologico";
 import Formazione from "../Components/Sezioni/Formazione";
+import Studio from "../Components/Sezioni/Studio";
 function Homepage() {
   return (
     <>
@@ -58,6 +59,7 @@ function Homepage() {
       </div>
       <About />
       <Formazione />
+      <Studio />
       <SostegnoPsicologico />
 
       <div
