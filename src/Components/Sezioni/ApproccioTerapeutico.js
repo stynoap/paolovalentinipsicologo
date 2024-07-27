@@ -11,9 +11,10 @@ function ApproccioTerapeutico() {
           backgroundImage: `url(${approcciobg})`,
         }}
         className=" py-8"
+        id="approccio-terapeutico"
       >
         <TitleSection text="L'approccio analitico-archetipico"></TitleSection>
-        <div className="mt-14 leading-9 gap-4 flex flex-col text-sky-900 tracking-wide font-medium mx-10 items-center w-fit">
+        <div className="mt-14 leading-9 gap-4 flex flex-col text-slate-900 tracking-wide font-medium mx-10 items-center w-fit">
           <div>
             <SubTitles text="La psicologia analitica" />
             <p>

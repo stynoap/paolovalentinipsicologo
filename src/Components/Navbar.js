@@ -8,13 +8,13 @@ function Navbar() {
   };
 
   return (
-    <nav className="relative select-none bg-transparent z-10 lg:flex lg:items-stretch w-full">
+    <nav className="relative select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
             {" "}
             <a
-              href="/home"
+              href="/"
               className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 text-sky-100 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
@@ -56,31 +56,31 @@ function Navbar() {
       >
         <div className="lg:flex lg:tracking-widest font-semibold lg:items-stretch lg:justify-end ml-auto mr-14">
           <a
-            href="/chi-sono"
+            href="#chi-sono"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             chi sono
           </a>
           <a
-            href="/servizi"
+            href="#servizi"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             servizi
           </a>
           <a
-            href="/approccio-terapeutico"
+            href="#approccio-terapeutico"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             approccio terapeutico
           </a>
           <a
-            href="/tariffe"
+            href="#tariffe"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             tariffe
           </a>
           <a
-            href="/contatti"
+            href="#contattami"
             className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-sky-100 no-underline flex items-center hover:bg-grey-dark"
           >
             contatti

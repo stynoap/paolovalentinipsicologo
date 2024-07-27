@@ -1,7 +1,7 @@
 function TitleSection({ text }) {
   return (
     <>
-      <h2 className="text-4xl font-semibold uppercase text-sky-700">{text}</h2>
+      <h2 className="text-4xl font-semibold uppercase text-slate-700">{text}</h2>
     </>
   );
 }

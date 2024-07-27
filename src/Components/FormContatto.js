@@ -1,19 +1,17 @@
-
-
-
+import SecondaryButton from "./SecondaryButton";
 
 function FormContatto() {
   const handleFormSubmission = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    
+
     try {
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString(),
       });
-      
+
       if (response.ok) {
         console.log("Form successfully submitted");
         // Redirect or show a success message
@@ -25,7 +23,6 @@ function FormContatto() {
       console.error("Error submitting form:", error);
     }
   };
-
 
   return (
     <>
@@ -44,7 +41,7 @@ function FormContatto() {
           <p className="col-span-2 lg:col-span-1">
             <input
               type="text"
-              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-slate-600 border-2 p-3 md:text-xl w-full"
               placeholder="Nome"
               name="nome"
               id="nome"
@@ -55,7 +52,7 @@ function FormContatto() {
           <p className="col-span-2 lg:col-span-1">
             <input
               type="text"
-              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-slate-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo indirizzo email"
               name="indirizzo-email"
               id="email"
@@ -67,7 +64,7 @@ function FormContatto() {
             <textarea
               cols="30"
               rows="8"
-              className="border-solid border-sky-600 border-2 p-3 md:text-xl w-full"
+              className="border-solid border-slate-600 border-2 p-3 md:text-xl w-full"
               placeholder="Il tuo messaggio"
               name="testo-del-messaggio"
               id="message"
@@ -75,13 +72,8 @@ function FormContatto() {
             ></textarea>
           </p>
 
-          <div className="col-span-2 text-right">
-            <button
-              type="submit"
-              className="py-3 px-6 bg-sky-800 text-white font-bold w-full sm:w-32"
-            >
-              Invia
-            </button>
+          <div className="col-span-2 text-center">
+            <SecondaryButton type="submit" text="Inviami un'email" />
           </div>
         </div>
       </form>

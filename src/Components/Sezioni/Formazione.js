@@ -3,9 +3,9 @@ import TitleSection from "../TitleSection";
 
 function Formazione() {
   return (
-    <div className="w-full">
+    <div className="w-full" id="formazione">
      
-      <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-sky-50 my-8 bg-opacity-70  text-sky-700 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-4/5">
+      <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-50 my-8 bg-opacity-70  text-slate-700 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-4/5">
         <ul className="list-disc list-inside space-y-4">
         <TitleSection text="La mia formazione" />
           <li>
@@ -33,7 +33,7 @@ function Formazione() {
           </li>
         </ul>
         <SubTitles text="Pubblicazioni" />
-        <div className="mt-4 text-sky-700">
+        <div className="mt-4 text-slate-700">
           <p className="italic">
             Rivista semestrale di psicologia del profondo "Il Minotauro" (ISSN
             2037-4216) - N° del Giugno 2020.

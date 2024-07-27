@@ -3,9 +3,9 @@ import TitleSection from "../TitleSection";
 function SostegnoPsicologico() {
   return (
     <>
-      <div className="w-full flex flex-col justify-center items-center ">
+      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center ">
         <TitleSection text="Il sostegno psicologico" />
-        <div className="w-4/5 py-7 text-xl leading-9 text-sky-900 ">
+        <div className="w-4/5 py-7 text-xl leading-9 text-slate-900 ">
           <p className="mb-10">
             <b >Il sostegno psicologico</b> si struttura in un numero iniziale
             flessibile ma comunque minore di <b>5 sedute iniziali.</b> É una prima fase

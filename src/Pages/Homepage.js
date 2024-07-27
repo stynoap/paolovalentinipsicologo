@@ -1,7 +1,6 @@
-import Navbar from "../Components/Navbar";
 // import PrimaryButton from "../Components/PrimaryButton";
 import About from "../Components/Sezioni/About";
-import headerbg from "../header-bg-sky-800-2.png";
+// import headerbg from "../header-bg-sky-800-2.png";
 import paolovalentini from "../paolovalentini-prf.png";
 import Servizio from "../Components/Sezioni/Servizio";
 import { servizi } from "../data";
@@ -19,29 +18,29 @@ function Homepage() {
   return (
     <>
       <div
-        className=" bg-cover max-h-fit"
-        style={{
-          backgroundImage: `url(${headerbg})`,
-        }}
+        className=" bg-cover max-h-fit bg-bottom"
+        // style={{
+        //   backgroundImage: `url(${headerbg})`,
+        // }}
       >
-        <div className=" bg-cover bg-bottom pb-20  ">
-          <Navbar />
+        <div className=" bg-cover bg-bottom ">
+       
           <div className="flex  flex-col items-center lg:flex-row lg:justify-center">
             <div
-              className=" lg:basis-1/3 w-80 h-80 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat -mt-12 lg:mt-16 lg:mr-10  lg:h-[500px] lg:w-80  "
+              className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat -mt-12 lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
               style={{
                 backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
             <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5   ">
-              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-sky-100 lg:ml-16">
+              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 32 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
                 psicologi delle Marche (n°3136). <br /> Mi sono laureato nella
                 facoltà di psicologia di Urbino.
               </p>
 
-              <p className="hidden lg:text-right lg:relative right-16 font-light lg:mt-8 lg:mr-24 text-sky-100 tracking-widest leading-7">
+              <p className="hidden lg:text-right lg:relative right-16 font-light lg:mt-8 lg:mr-24 text-slate-100 tracking-widest leading-7">
                 Ho maturato esperienze con gli <b>adolescenti.</b> <br /> Cerco
                 a mio modo di educere, cioè di trarre fuori.
               </p>
@@ -57,7 +56,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <About />
+      <About id="chi-sono" />
       <Formazione />
       <Studio />
       <SostegnoPsicologico />
@@ -69,7 +68,7 @@ function Homepage() {
         className=" py-8"
       >
         <TitleSection text="I Servizi" />
-        <div className="mt-8 flex flex-col lg:flex-row lg:flex-wrap">
+        <div id="servizi" className="mt-8 flex flex-col lg:flex-row lg:flex-wrap">
           {servizi.map((servizio, index) => (
             <Servizio
               key={index}

@@ -5,7 +5,7 @@ import LoStudio from "./LoStudio";
 function Studio() {
   return (
     <>
-      <div className="bg-sky-50 py-10 rounded-3xl my-10">
+      <div className="bg-slate-50 py-10 rounded-3xl my-10">
         <TitleSection text="Lo studio" />
         <LoStudio />
         <p className="text-slate-700 px-2 py-6 text-xl">
@@ -36,7 +36,7 @@ function Studio() {
           Nella terapia con l'adolescente valuto caso per caso se fare un primo
           incontro con i genitori
         </p>
-        <p className="lg:text-slate-600 text-sky-700 text-lg py-5">
+        <p className="lg:text-slate-600 text-slate-700 text-lg py-5">
           Opero invii a diverse figure professionali nell'ambito della salute
           mentale quali:
         </p>
