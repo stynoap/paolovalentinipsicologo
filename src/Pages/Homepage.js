@@ -33,7 +33,7 @@ function Homepage() {
                 backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
-            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-12 lg:mt-0   ">
+            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-9 lg:mt-0   ">
               <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 32 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
