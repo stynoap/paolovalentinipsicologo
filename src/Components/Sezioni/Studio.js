@@ -22,7 +22,7 @@ function Studio() {
             adulti e nello specifico fornisco <b>sostegno psicologico</b> per:{" "}
           </p>
 
-          <ul className=" w-3/5 lg:w-4/12 flex rounded-xl flex-col gap-5 tracking-wider text-lg font-bold px-7 py-2 text-slate-700 mt-4">
+          <ul className=" w-11/12 lg:w-4/12 flex rounded-xl flex-col gap-5 tracking-wider text-lg font-bold px-7 py-2 text-slate-700 mt-4">
             <li className="py-2 bg-slate-100 shadow-lg rounded-xl ">disturbi d'ansia </li>
             <li className="p-2  bg-slate-100 shadow-lg rounded-xl ">disturbi dell'umore e della depressione </li>
             <li className="p-2  bg-slate-100 shadow-lg rounded-xl">disturbi ossessivi compulsivi</li>
