@@ -100,9 +100,10 @@ function FormContatto() {
           </p>
 
           <div className="col-span-2 text-center">
-            <SecondaryButton type="submit" text="Inviami un'email" />
-            {isEmailSend | isVisible && <p>Email inviata correttamente</p>}
+            <SecondaryButton type="submit" text="Inviami un'email"/>
+            
           </div>
+          {isEmailSend && isVisible && ( <p>Email inviata correttamente</p>)}
         </div>
       </form>
     </>
