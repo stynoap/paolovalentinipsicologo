@@ -44,7 +44,7 @@ function Formazione() {
             Rivista semestrale di psicologia del profondo "Il Minotauro" (ISSN
             2037-4216) - N° del Giugno 2020.
           </p>
-          <p className="mt-4 text-sm pb-7 bg-slate-50 px-3 py-3 rounded-xl bg-opacity-70 shadow-lg">
+          <p className="mt-4 text-sm pb-7 tracking-widest leading-8 bg-slate-50 px-3 py-3 rounded-xl bg-opacity-70 shadow-lg">
             Le figure di <b>Sisifo</b> e del <b>Sisifo Felice</b> di <b>Camus</b> sono dei simboli
             che mi hanno consentito di riflettere sulla psicosi fuori e dentro
             il setting terapeutico e di focalizzarmi su alcune dimensioni quali:
