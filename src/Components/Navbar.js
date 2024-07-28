@@ -77,7 +77,7 @@ function Navbar() {
             href="#approccio-terapeutico"
             className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
-            approccio terapeutico
+            approccio
           </a>
           <a
             href="#tariffe"
