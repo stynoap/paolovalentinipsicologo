@@ -26,7 +26,7 @@ function Homepage() {
         <div className=" bg-cover bg-bottom ">
         
        
-          <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-20">
+          <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7">
             <div
               className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat  lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
               style={{

@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed lg:relative bg-opacity-90 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
+    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
