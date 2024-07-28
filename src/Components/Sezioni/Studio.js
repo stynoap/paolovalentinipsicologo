@@ -5,34 +5,35 @@ import LoStudio from "./LoStudio";
 function Studio() {
   return (
     <>
-      <div className="bg-slate-50 py-10 rounded-3xl my-10">
+      <div className="bg-slate-200 py-10 rounded-3xl my-10">
+      
         <TitleSection text="Lo studio" />
         <LoStudio />
-        <p className="text-slate-700 px-2 py-6 text-xl">
+        <p className="text-slate-700 px-6 py-6 text-3xl leading-snug">
           Mi potete trovare al{" "}
-          <b>Centro di psicologia e psicoterapia - Legami</b> Via Italia, 32,
+          <b>Centro di psicologia e psicoterapia Legàmi</b> Via Italia, 32,
           63813 Monte Urano (FM)
         </p>
 
-        <div className="flex flex-col justify-center items-center text-slate-700 ">
-          <p className="font-medium bg-opacity-10  lg:text-xl w-fit rounded-xl py-2 lg:px-20 px-3 ">
+        <div className="flex flex-col justify-center items-center text-slate-700 bg-slate-50 pb-10 ">
+          <p className="font-medium bg-opacity-10 lg:text-xl text-xl w-fit rounded-xl py-2 lg:px-20 px-3 mt-8 ">
             {" "}
             Nello studio al centro <b>Legami</b> mi occupo di adolescenti e
-            adulti e nello specifico fornisco <b>sostegno psicologico</b> per{" "}
+            adulti e nello specifico fornisco <b>sostegno psicologico</b> per:{" "}
           </p>
 
-          <ul className=" w-3/5 flex rounded-xl flex-col gap-2 tracking-wider lg:text-lg font-bold px-7 py-2 text-slate-700">
-            <li className="py-1 ">disturbi d'ansia </li>
-            <li className="p-1 ">disturbi dell'umore e della depressione </li>
-            <li className="p-1 ">disturbi ossessivi-compulsivi</li>
-            <li className="p-1 "> disturbi da Stress Post-Traumatico</li>
-            <li className="p-1 "> disturbi di personalità</li>
-            <li className="p-1 "> schizofrenia</li>
-            <li className="p-1 "> terapia di coppia</li>
+          <ul className=" w-3/5 flex rounded-xl flex-col gap-5 tracking-wider text-lg font-bold px-7 py-2 text-slate-700 mt-4">
+            <li className="py-1 bg-slate-100 shadow-lg rounded-xl ">disturbi d'ansia </li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl ">disturbi dell'umore e della depressione </li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl">disturbi ossessivi-compulsivi</li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl "> disturbi da stress post-traumatico</li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl "> disturbi di personalità</li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl "> schizofrenia</li>
+            <li className="p-1  bg-slate-100 shadow-lg rounded-xl "> coppie</li>
           </ul>
         </div>
 
-        <p className="text-slate-600 font-bold text-xl mt-5  p-3">
+        <p className="text-slate-600 font-bold text-xl mt-7   px-5">
           Nella terapia con l'adolescente valuto caso per caso se fare un primo
           incontro con i genitori
         </p>

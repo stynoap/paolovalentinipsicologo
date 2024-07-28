@@ -24,15 +24,16 @@ function Homepage() {
         // }}
       >
         <div className=" bg-cover bg-bottom ">
+        
        
-          <div className="flex  flex-col items-center lg:flex-row lg:justify-center">
+          <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-20">
             <div
-              className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat -mt-12 lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
+              className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat  lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
               style={{
                 backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
-            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5   ">
+            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-12 lg:mt-0   ">
               <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 32 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
@@ -49,10 +50,6 @@ function Homepage() {
             </div>
           </div>
           <div className="mt-0 relative bottom-24">
-            {/* <PrimaryButton
-               
-                testo="contattami"
-              /> */}
           </div>
         </div>
       </div>
@@ -68,15 +65,17 @@ function Homepage() {
         className=" py-8"
       >
         <TitleSection text="I Servizi" />
-        <div id="servizi" className="mt-8 flex flex-col lg:flex-row lg:flex-wrap">
+        <div id="servizi" className="mt-8 flex flex-col lg:gap-2 lg:flex-row lg:flex-wrap">
           {servizi.map((servizio, index) => (
             <Servizio
               key={index}
               title={servizio.title}
               description={servizio.description}
+              image={servizio.image}
             />
           ))}
         </div>
+        <div class="border-t border-8 border-slate-50 mt-24"></div>
       </div>
       <Tariffe />
 

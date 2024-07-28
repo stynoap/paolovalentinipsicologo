@@ -27,7 +27,7 @@ function SostegnoPsicologico() {
             {" "}
             Nelle successive si definirà una valutazione del caso attraverso
             l'analisi della domanda emersa durante il primo colloquio, racconti
-            ulteriori porteranno a focalizzare le tematiche fondamentali e una
+            ulteriori porteranno a focalizzare le tematiche fondamentali e ci sarà una
             resistituzione sostanziale del lavoro svolto.{" "}
           </p>
 

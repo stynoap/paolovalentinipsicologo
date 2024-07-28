@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="relative select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
+    <nav className="fixed lg:relative bg-opacity-90 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
@@ -50,44 +50,44 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow ${
-          isOpen ? "block" : "hidden"
+        className={`lg:flex pb-7 tracking-widest text-xl lg:text-base uppercase lg:normal-case lg:items-stretch lg:flex-no-shrink lg:flex-grow ${
+          isOpen ? "block" : "hidden" 
         } lg:block`}
       >
         <div className="lg:flex lg:tracking-widest font-semibold lg:items-stretch lg:justify-end ml-auto mr-14">
           <a
             href="/"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             home
           </a>
           <a
             href="#chi-sono"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             chi sono
           </a>
           <a
             href="#servizi"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             servizi
           </a>
           <a
             href="#approccio-terapeutico"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             approccio terapeutico
           </a>
           <a
             href="#tariffe"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             tariffe
           </a>
           <a
             href="#contattami"
-            className="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-slate-100 hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100 hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
           >
             contatti
           </a>

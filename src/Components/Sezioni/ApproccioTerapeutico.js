@@ -12,11 +12,11 @@ function ApproccioTerapeutico() {
         // style={{
         //   backgroundImage: `url(${approcciobg})`,
         // }}
-        className=" py-8 mt-28 w-12/12 flex flex-col items-center justify-center "
+        className=" pt-14 bg-slate-50 w-12/12 flex flex-col items-center justify-center "
         id="approccio-terapeutico"
         
       >
-        <TitleSection text="L'approccio analitico-archetipico"></TitleSection>
+        <TitleSection text="L'approccio analitico archetipico"></TitleSection>
         <div className="lg:w-8/12 ">
           <div className="mt-14 leading-9 gap-4 flex flex-col text-slate-900 tracking-wide font-medium mx-10 text-left items-center w-fit">
             <div>

@@ -4,32 +4,38 @@ import TitleSection from "../TitleSection";
 function Formazione() {
   return (
     <div className="w-full" id="formazione">
-     
-      <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-50 my-8 bg-opacity-70  text-slate-700 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-4/5">
-        <ul className="list-disc list-inside space-y-4">
-        <TitleSection text="La mia formazione" />
+      <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-200 my-8 bg-opacity-70  text-slate-800 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-4/5">
+      <TitleSection text="La mia formazione" />
+        <ul className="list-disc list-inside space-y-4 mt-12">
+      
           <li>
-            01/01/2023 Scoppito (AQ) - PSICOTERAPEUTA in formazione. 2° anno
-            Corso di Specializzazione quadriennale in Psicoterapia
-            Analitico-Archetipica "Atanor"
+            dal 01/01/2023- specializzando in psicoterapia. Attualmente iscritto al 2° anno
+            del corso di Specializzazione quadriennale in Psicoterapia
+            Analitico-Archetipica "Atanor"  Scoppito (AQ) 
           </li>
           <li>
-            SERVIZIO DI ASSISTENZA EDUCATIVA SCOLASTICA E DOMICILIARE - LIVELLO
-            D1 COOS MARCHE ONLUS SOC. COOP P.A
+           Servizio di assistenza educativa scolastica e domiciliare - livello D1 coos Marche Onlus Soc. Coop P.A.
           </li>
           <li>
-            PSICOLOGO SEZ. A (N.3161) Ordine degli Psicologi della regione
-            Marche 21/08/2023
+            Psicologo iscritto alla sez. A (N.3161) dell'Ordine degli Psicologi della regione
+            Marche dal 21/08/2023
           </li>
           <li>
-            21/08/2023 – 30/11/2023 Montefiore dell'Aso - TIROCINIO CORSO DI
-            SPECIALIZZAZIONE QUADRIENNALE IN PSICOTERAPIA ANALITICOARCHETIPICA
-            ATANOR Associazione Dianova Onlus Comunità terapeutica per le
-            dipendenze patologiche
+            Montefiore dell'Aso - Tirocinio Associazione
+            Dianova Onlus Comunità terapeutica per le dipendenze patologiche
+          </li>
+         
+          <li>
+            Tirocinio post-lauream - Tutor: Elena Acquarini, Ph. D. Ricercatrice
+            confermata in Psicologia Clinica Università degli studi di Urbino
+            Carlo Bo
           </li>
           <li>
-            0/02/2020 - LAUREA MAGISTRALE IN PSICOLOGIA CLINICA Università degli
+           Laurea Magistrale in Psicologia Clinica - Università degli
             studi di Urbino Carlo Bo
+          </li>
+          <li>
+            Laurea triennale in Scienze e Tecniche psicologiche presso Università degli studi di Urbino Carlo Bo
           </li>
         </ul>
         <SubTitles text="Pubblicazioni" />
@@ -38,8 +44,8 @@ function Formazione() {
             Rivista semestrale di psicologia del profondo "Il Minotauro" (ISSN
             2037-4216) - N° del Giugno 2020.
           </p>
-          <p className="mt-2">
-            Le figure di Sisifo e del Sisifo Felice di Camus sono dei simboli
+          <p className="mt-4 text-sm pb-7 bg-slate-50 px-3 py-3 rounded-xl bg-opacity-70 shadow-lg">
+            Le figure di <b>Sisifo</b> e del <b>Sisifo Felice</b> di <b>Camus</b> sono dei simboli
             che mi hanno consentito di riflettere sulla psicosi fuori e dentro
             il setting terapeutico e di focalizzarmi su alcune dimensioni quali:
             il dolore, l’alleanza con l’assurdo, la coazione a ripetere,
@@ -49,11 +55,7 @@ function Formazione() {
             non c’è integrazione tra identità e differenza, simbiosi e
             separazione, inconscio e coscienza.
           </p>
-          <p className="mt-4">
-            TIROCINIO POST LAUREAM - Tutor: Elena Acquarini, Ph. D. Ricercatrice
-            confermata in Psicologia Clinica Università degli studi di Urbino
-            Carlo Bo
-          </p>
+          <p className="mt-4"></p>
         </div>
       </div>
     </div>
