@@ -26,14 +26,14 @@ function Homepage() {
         <div className=" bg-cover bg-bottom ">
         
        
-          <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7">
+          <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7 lg:mb-24">
             <div
               className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat  lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
               style={{
                 backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
-            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-9 lg:mt-0   ">
+            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0   ">
               <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 32 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
