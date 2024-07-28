@@ -1,8 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SecondaryButton from "./SecondaryButton";
 
 function FormContatto() {
-  const [isEmailSend, emailSend]=useState(false);
+  const [isEmailSend, setEmailSend]=useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    // Imposta un timer per nascondere il messaggio dopo 5 secondi
+    const timer = setTimeout(() => {
+      setIsVisible(false);
+    }, 5000); // 5000 millisecondi = 5 secondi
+
+    // Pulisce il timer quando il componente viene smontato
+    return () => clearTimeout(timer);
+  }, []);
+
   const handleFormSubmission = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -16,7 +28,7 @@ function FormContatto() {
 
       if (response.ok) {
         console.log("Form successfully submitted");
-        emailSend(()=>true)
+        setEmailSend(()=>true)
 
         // Redirect or show a success message
         // window.location.href = "/pages/success";
@@ -25,7 +37,7 @@ function FormContatto() {
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      emailSend(()=>false)
+      setEmailSend(()=>false)
     }
   };
 
@@ -89,7 +101,7 @@ function FormContatto() {
 
           <div className="col-span-2 text-center">
             <SecondaryButton type="submit" text="Inviami un'email" />
-            {isEmailSend && <p>Email inviata correttamente</p>}
+            {isEmailSend | isVisible && <p>Email inviata correttamente</p>}
           </div>
         </div>
       </form>
