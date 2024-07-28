@@ -46,7 +46,7 @@ function Studio() {
           psicoterapeuti, psichiatri, neurologi, psicodiagnosti.
         </p>
 
-        <PrimaryButton testo="Prenota un appuntamento" />
+        <PrimaryButton href="#contatti" testo="Prenota un appuntamento" />
       </div>
     </>
   );

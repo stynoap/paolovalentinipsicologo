@@ -1,6 +1,8 @@
+import { useState } from "react";
 import SecondaryButton from "./SecondaryButton";
 
 function FormContatto() {
+  const [isEmailSend, emailSend]=useState(false);
   const handleFormSubmission = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -14,6 +16,8 @@ function FormContatto() {
 
       if (response.ok) {
         console.log("Form successfully submitted");
+        emailSend(()=>true)
+
         // Redirect or show a success message
         // window.location.href = "/pages/success";
       } else {
@@ -21,6 +25,7 @@ function FormContatto() {
       }
     } catch (error) {
       console.error("Error submitting form:", error);
+      emailSend(()=>false)
     }
   };
 
@@ -84,6 +89,7 @@ function FormContatto() {
 
           <div className="col-span-2 text-center">
             <SecondaryButton type="submit" text="Inviami un'email" />
+            {isEmailSend && <p>Email inviata correttamente</p>}
           </div>
         </div>
       </form>
