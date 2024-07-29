@@ -56,7 +56,7 @@ function Navbar() {
         } lg:block`}
       >
         <div className="lg:flex  w-full items-center   ">
-          <div className="lg:flex lg:tracking-widest font-semibold lg:gap-7 lg:items-stretch lg:justify-center mx-auto ml-48">
+          <div className="lg:flex lg:tracking-widest font-semibold lg:gap-7 lg:items-stretch lg:justify-center mx-auto lg:ml-48">
             <a
               href="/"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
@@ -89,7 +89,7 @@ function Navbar() {
             </a>
           </div>
 
-          <div className="ml-auto mr-12 mt-2">
+          <div className="lg:ml-auto lg:mr-12 lg:mt-2">
             {/* <a
               href="#contatti"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
