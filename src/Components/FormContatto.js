@@ -47,7 +47,7 @@ function FormContatto() {
         name="contact"
         onSubmit={handleFormSubmission}
         // Rimuovi data-netlify="true" se usi fetch
-        className="max-w-2xl bg-white py-10 px-5 m-auto w-full lg:rounded-xl border-gray-100 border-8"
+        className="max-w-2xl bg-white py-10 px-5 m-auto w-full lg:rounded-xl lg:border-gray-100 lg:border-8"
         // action="/" // Rimuovi action se usi fetch
       >
         <input type="hidden" name="form-name" value="contact"></input>
