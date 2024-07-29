@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PrimaryButton from "./PrimaryButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,20 +9,20 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-700">
+    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-100">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
             {" "}
             <a
               href="/"
-              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-slate-100 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-slate-700 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
             </a>
           </p>
 
-          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-slate-100 no-underline flex items-center hover:bg-grey-dark">
+          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-slate-700 no-underline flex items-center hover:bg-grey-dark">
             psicologo
           </p>
         </div>
@@ -32,7 +33,7 @@ function Navbar() {
         >
           {isOpen ? (
             <svg
-              className="fill-current text-slate-100"
+              className="fill-current text-slate-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -40,7 +41,7 @@ function Navbar() {
             </svg>
           ) : (
             <svg
-              className="fill-current text-slate-100"
+              className="fill-current text-slate-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -50,47 +51,54 @@ function Navbar() {
         </button>
       </div>
       <div
-        className={`lg:flex pb-7 tracking-widest text-xl lg:text-base uppercase lg:normal-case lg:items-stretch lg:flex-no-shrink lg:flex-grow ${
-          isOpen ? "block" : "hidden" 
+        className={`lg:flex pb-7 tracking-widest text-xl lg:text-base uppercase  lg:normal-case lg:items-stretch lg:flex-no-shrink lg:flex-grow ${
+          isOpen ? "block" : "hidden"
         } lg:block`}
       >
-        <div className="lg:flex lg:tracking-widest font-semibold lg:items-stretch lg:justify-end ml-auto mr-14">
-          <a
-            href="/"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            home
-          </a>
-          <a
-            href="#chi-sono"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            chi sono
-          </a>
-          <a
-            href="#servizi"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            servizi
-          </a>
-          <a
-            href="#approccio-terapeutico"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            approccio
-          </a>
-          <a
-            href="#tariffe"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            tariffe
-          </a>
-          <a
-            href="#contatti"
-            className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal text-slate-100 hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
-          >
-            contatti
-          </a>
+        <div className="lg:flex  w-full items-center   ">
+          <div className="lg:flex lg:tracking-widest font-semibold lg:gap-7 lg:items-stretch lg:justify-center mx-auto ml-48">
+            <a
+              href="/"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              home
+            </a>
+            <a
+              href="#chi-sono"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              chi sono
+            </a>
+            <a
+              href="#servizi"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              servizi
+            </a>
+            <a
+              href="#approccio-terapeutico"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              approccio
+            </a>
+            <a
+              href="#tariffe"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal   hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              tariffe
+            </a>
+          </div>
+
+          <div className="ml-auto mr-12 mt-2">
+            {/* <a
+              href="#contatti"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+            >
+              
+            </a> */}
+        
+            <PrimaryButton href="#contatti" testo="Contattami" />
+          </div>
         </div>
       </div>
     </nav>

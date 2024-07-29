@@ -24,8 +24,6 @@ function Homepage() {
         // }}
       >
         <div className=" bg-cover bg-bottom ">
-        
-       
           <div className="flex  flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7 lg:mb-24">
             <div
               className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat  lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80  "
@@ -46,18 +44,16 @@ function Homepage() {
                 a mio modo di educere, cioè di trarre fuori.
               </p>
 
-              <PrimaryButton href="#contattami" testo="Contattami" />
+              <PrimaryButton
+                href="#contatti"
+                testo="Prenota il primo colloquio"
+              />
             </div>
           </div>
-          <div className="mt-0 relative bottom-24">
-          </div>
+          <div className="mt-0 relative bottom-24"></div>
         </div>
       </div>
       <About id="chi-sono" />
-      <Formazione />
-      <Studio />
-      <SostegnoPsicologico />
-
       <div
         // style={{
         //   backgroundImage: `url(${servizibg})`,
@@ -65,7 +61,10 @@ function Homepage() {
         className=" py-8"
       >
         <TitleSection text="I Servizi" />
-        <div id="servizi" className="mt-8 flex flex-col lg:gap-2 lg:flex-row lg:flex-wrap">
+        <div
+          id="servizi"
+          className="mt-8 flex flex-col lg:gap-2 lg:flex-row lg:flex-wrap"
+        >
           {servizi.map((servizio, index) => (
             <Servizio
               key={index}
@@ -77,11 +76,17 @@ function Homepage() {
         </div>
         <div class="border-t border-8 border-slate-50 mt-24"></div>
       </div>
+     
+      <Studio />
+      <SostegnoPsicologico />
+      <Formazione />
+
+
       <Tariffe />
 
       <ApproccioTerapeutico />
       <Contatti />
-     
+
       <IndicazioniStudio />
     </>
   );
