@@ -3,7 +3,7 @@ import logo from "./../icone/icons8-psicologia-100.png";
 function Footer() {
   return (
     <>
-      <footer class="bg-slate-100 dark:bg-gray-900">
+      <footer class="bg-slate-100 ">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
@@ -13,17 +13,17 @@ function Footer() {
                   class=" w-12 p-0 mr-2"
                   alt="Paolo Valentini Logo"
                 />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap ">
                   Paolo Valentini Psicologo
                 </span>
               </div>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                   Risorse
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
                     <a href="#chi-sono" class="hover:underline">
                       Chi sono
@@ -37,10 +37,10 @@ function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
                   Seguimi
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-500  font-medium">
                   <li class="mb-4">
                     <a
                       href="https://www.facebook.com/profile.php?id=61560065947231"
@@ -52,10 +52,10 @@ function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
                   Deontologia
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
                     <a
                       href="https://www.psy.it/la-professione-psicologica/codice-deontologico-degli-psicologi-italiani/codice-deontologico-vigente/"
@@ -68,9 +68,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span class="text-sm text-gray-500 sm:text-center">
               © 2024{" "}
               <a href="/" class="hover:underline">
                 Paolo Valentini
@@ -80,7 +80,7 @@ function Footer() {
             <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a
                 href="https://www.facebook.com/profile.php?id=61560065947231"
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                class="text-gray-500 hover:text-gray-900 "
               >
                 <svg
                   class="w-4 h-4"
