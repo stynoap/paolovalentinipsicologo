@@ -4,8 +4,8 @@ import SecondaryButton from "../SecondaryButton";
 function About() {
   return (
     <>
-      <div id="chi-sono" className=" py-1 mb-2">
-        <div className="flex flex-col items-center lg:-mt-28 mt-20">
+      <div id="chi-sono" className=" py-1 mb-2 bg-slate-50">
+        <div className="flex flex-col items-center mt-5">
           <h1 className="lg:text-5xl text-3xl font-semibold  mb-5 lg:mb-9 text-slate-800">
             Dott. Paolo Valentini
           </h1>

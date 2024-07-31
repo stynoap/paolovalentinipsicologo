@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Homepage from "./Pages/Homepage";
 import Approccio from "./Pages/Approccio";
 import Navbar from "./Components/Navbar";
+import ChiSono from "./Pages/ChiSono";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/approccio" element={<Approccio />} />
+          <Route path="/chi-sono" element={<ChiSono />} />
 
           {/* <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}

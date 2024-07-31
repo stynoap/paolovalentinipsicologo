@@ -20,7 +20,7 @@ function Contatti(){
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                                     </svg>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Legàmi - Via Italia, 32, 63813 Monte Urano (FM)
+                                    Centro Legàmi - Via Italia, 32, 63813 Monte Urano (FM)
                                     </div>
                                 </div>
         

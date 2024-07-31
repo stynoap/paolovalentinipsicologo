@@ -1,10 +1,14 @@
 import TitleSection from "../TitleSection";
+import terapia from "../../icone/icons8-psicoterapia-100.png"
 
 function SostegnoPsicologico() {
   return (
     <>
-      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center ">
+      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center mt-14 ">
         <TitleSection text="Il sostegno psicologico" />
+        <div className="h-20 bg-no-repeat w-6/12 my-6 bg-center"  style={{
+                backgroundImage: `url(${terapia})`,
+              }}></div>
         <div className="w-4/5 py-7 text-xl leading-9 text-slate-900 ">
           <p className="mb-10">
             <b >Il sostegno psicologico</b> si struttura in un numero iniziale

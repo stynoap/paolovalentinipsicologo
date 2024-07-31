@@ -64,25 +64,25 @@ function Navbar() {
               home
             </a>
             <a
-              href="#chi-sono"
+              href="/chi-sono"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               chi sono
             </a>
             <a
-              href="#servizi"
+              href="/#servizi"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               servizi
             </a>
             <a
-              href="#approccio-terapeutico"
+              href="/#approccio-terapeutico"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               approccio
             </a>
             <a
-              href="#tariffe"
+              href="/#tariffe"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal   hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               tariffe

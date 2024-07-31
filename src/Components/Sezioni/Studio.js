@@ -9,11 +9,7 @@ function Studio() {
       
         <TitleSection text="Lo studio" />
         <LoStudio />
-        <p className="text-slate-700 px-6 py-6 text-3xl leading-snug">
-          Mi potete trovare al{" "}
-          <b>Centro di psicologia e psicoterapia Legàmi</b> Via Italia, 32,
-          63813 Monte Urano (FM)
-        </p>
+{/*       
 
         <div className="flex flex-col justify-center items-center text-slate-700 bg-slate-50 pb-10 ">
           <p className="font-medium bg-opacity-10 lg:text-xl text-xl w-fit rounded-xl py-2 lg:px-20 px-3 mt-8 ">
@@ -31,7 +27,7 @@ function Studio() {
             <li className="p-2  bg-slate-100 shadow-lg rounded-xl "> schizofrenia</li>
             <li className="p-2  bg-slate-100 shadow-lg rounded-xl "> coppie</li>
           </ul>
-        </div>
+        </div> */}
 
         <p className="text-slate-600 font-bold text-xl mt-7   px-5">
           Nella terapia con l'adolescente valuto caso per caso se fare un primo

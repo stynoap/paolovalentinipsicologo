@@ -1,4 +1,4 @@
-function Servizio({ title, description, image }) {
+function Servizio({ title, description, image, href = false }) {
   return (
     <>
       <article class="  bg-slate-50 rounded-3xl  bg-opacity-40 flex flex-wrap lg:flex-row mb-4 md:flex-nowrap shadow-lg mx-auto max-w-xl min-w-96">
@@ -13,7 +13,10 @@ function Servizio({ title, description, image }) {
           </div>
 
           <div>
-            <h1 class="text-2xl font-semibold text-slate-700">{title}</h1>
+            <a href={href}>
+              <h1 class="text-2xl font-semibold text-slate-700">{title}</h1>
+            </a>
+
             <p class="text-base text-slate-500 mt-2">{description}</p>
           </div>
         </div>

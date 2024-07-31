@@ -5,7 +5,7 @@ import meetonline from "./icone/icons8-google-meet-48.png"
 
 
 export const servizi = [
-    { title: "Sostegno psicologico", description: "Sostegno psicologico per adulti, minori e adolescenti", image: terapia  },
+    { title: "Sostegno psicologico", description: "Sostegno psicologico per adolescenti e adulti", image: terapia  },
     { title: "Terapia di coppia", description: "consulenza psicologica e sostegno alle coppie, online e in presenza", image: coppia },
     { title: "Consulenza online", description: "Offro consulenza e sostegno psicogico online tramite le piattaforme skype, whatsapp e google meet", image: meetonline },
 
