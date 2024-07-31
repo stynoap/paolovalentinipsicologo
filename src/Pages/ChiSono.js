@@ -9,6 +9,7 @@ function About() {
 
   const navForm = (()=>{
     navigate("/#contatti");
+    console.log("tua mamma")
 
   })
 

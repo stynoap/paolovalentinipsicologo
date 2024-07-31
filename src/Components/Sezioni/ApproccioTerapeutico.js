@@ -24,12 +24,12 @@ function ApproccioTerapeutico() {
             <div>
               <SubTitles text="La psicologia analitica" />
               <div
-                className="h-72 w-8/12 bg-no-repeat bg-center float-left mr-10 rounded-lg"
+                className="h-72 lg:w-8/12 w-full bg-no-repeat bg-center lg:float-left mr-10 rounded-lg"
                 style={{
                   backgroundImage: `url(${piantina})`,
                 }}
               ></div>
-              <p className="text-xs leading-7 italic mb-9">
+              <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -57,12 +57,12 @@ function ApproccioTerapeutico() {
               archetipica"
               />
               <div
-                className="h-72 w-8/12 bg-center bg-no-repeat float-left mr-10 bg-cover rounded-lg"
+                className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg"
                 style={{
                   backgroundImage: `url(${congiunzioni})`,
                 }}
               ></div>
-              <p className="text-xs leading-7 italic mb-9">
+              <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -84,12 +84,12 @@ function ApproccioTerapeutico() {
               </p>
               <SubTitles text="La teoria della ghianda" />
               <div
-                className="h-72 w-8/12 bg-center bg-no-repeat float-left mr-10 bg-cover rounded-lg"
+                className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg"
                 style={{
                   backgroundImage: `url(${ghianda})`,
                 }}
               ></div>
-              <p className="text-xs leading-7 italic mb-9">
+              <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
