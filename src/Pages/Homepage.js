@@ -14,11 +14,13 @@ import SostegnoPsicologico from "../Components/Sezioni/SostegnoPsicologico";
 // import Formazione from "../Components/Sezioni/Formazione";
 // import Studio from "../Components/Sezioni/Studio";
 import Contatti from "../Components/Contatti";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "../Components/Navbar";
+
 function Homepage() {
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (location.hash) {
@@ -64,14 +66,12 @@ function Homepage() {
               />
             </div>
           </div>
-        
         </div>
       </div>
       <p className="text-slate-700 px-6 text-2xl leading-snug  text-center lg:mt-0 mt-14">
-            Mi potete trovare al{" "}
-            <b>Centro di psicologia e psicoterapia Legàmi</b> di Via Italia, 32,
-            63813 Monte Urano (FM)
-          </p>
+        Mi potete trovare al <b>Centro di psicologia e psicoterapia Legàmi</b>{" "}
+        di Via Italia, 32, 63813 Monte Urano (FM)
+      </p>
       <div className="mt-20 mb-20">
         <TitleSection text="I Servizi" />
         <div id="servizi" className="mt-8 flex flex-col items-center">
@@ -81,7 +81,7 @@ function Homepage() {
                 title={servizi[0].title}
                 description={servizi[0].description}
                 image={servizi[0].image}
-                href="#sostegno-psicologico"
+                onclick={() => navigate("#sostegno-psicologico")}
               />
             </div>
           </div>
@@ -100,14 +100,11 @@ function Homepage() {
       </div>
 
       <About id="chi-sono" />
- 
 
       {/* <Studio /> */}
       <SostegnoPsicologico />
       {/* <Formazione /> */}
       <Tariffe />
-
- 
 
       <ApproccioTerapeutico />
       <Contatti />
