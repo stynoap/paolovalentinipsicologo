@@ -25,7 +25,7 @@ function Footer() {
                 </h2>
                 <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
-                    <a href="#chi-sono" class="hover:underline">
+                    <a href="/chi-sono" class="hover:underline">
                       Chi sono
                     </a>
                   </li>
