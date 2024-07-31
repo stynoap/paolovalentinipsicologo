@@ -3,18 +3,19 @@ import paolovalentini from "./../paolo-sfondo.jpg";
 import Formazione from "../Components/Sezioni/Formazione";
 import PrimaryButton from "../Components/PrimaryButton";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Components/Navbar";
 
 function About() {
   const navigate = useNavigate();
 
-  const navForm = (()=>{
+  const navForm = () => {
     navigate("/#contatti");
-    console.log("tua mamma")
-
-  })
+    console.log("tua mamma");
+  };
 
   return (
     <>
+      <Navbar />
       <section id="about" className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 lg:px-20">
           {/* Sezione 1: Perché faccio quello che faccio */}
@@ -49,11 +50,11 @@ function About() {
                 Di cosa mi occupo
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Offro supporto psicologico e percorsi di sostegno psicologico per
-                adulti, adolescenti e coppie. Il mio approccio è empatico e non
-                giudicante, mirato a creare un ambiente sicuro dove esplorare le
-                proprie emozioni e pensieri. L'obiettivo è aiutare i miei
-                clienti a superare ansie, stress, problemi relazionali e
+                Offro supporto psicologico e percorsi di sostegno psicologico
+                per adulti, adolescenti e coppie. Il mio approccio è empatico e
+                non giudicante, mirato a creare un ambiente sicuro dove
+                esplorare le proprie emozioni e pensieri. L'obiettivo è aiutare
+                i miei clienti a superare ansie, stress, problemi relazionali e
                 difficoltà emotive, promuovendo il benessere e
                 l'autoconsapevolezza.
               </p>
@@ -61,21 +62,22 @@ function About() {
             <div
               className="lg:w-1/2 w-full h-80 bg-contain bg-no-repeat bg-center"
               style={{
-                backgroundImage: `url(${paolovalentini})`, 
+                backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
           </div>
 
           <div className="mb-16">
-           
             <p className="text-lg text-gray-700 leading-relaxed font-bold mb-10">
-              Il mio obiettivo è
-              accompagnare ogni paziente verso una maggiore consapevolezza di sé
-              e il raggiungimento di un equilibrio psicologico duraturo. La mia
-              priorità è offrire un ascolto attento e un supporto personalizzato
-              per ogni individuo.
+              Il mio obiettivo è accompagnare ogni paziente verso una maggiore
+              consapevolezza di sé e il raggiungimento di un equilibrio
+              psicologico duraturo. La mia priorità è offrire un ascolto attento
+              e un supporto personalizzato per ogni individuo.
             </p>
-            <PrimaryButton onclick={navForm}  testo="Scrivimi per prenotare un colloquio"/>
+            <PrimaryButton
+              onclick={navForm}
+              testo="Scrivimi per prenotare un colloquio"
+            />
           </div>
 
           <Formazione />

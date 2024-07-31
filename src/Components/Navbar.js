@@ -1,9 +1,12 @@
 import { useState } from "react";
 // import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
+import { useNavigate } from "react-router-dom";
 
 
 function Navbar() {
+
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -65,12 +68,13 @@ function Navbar() {
             >
               home
             </a>
-            <a
+            <button
               href="/chi-sono"
+              onClick={(()=>{navigate("/chi-sono")})}
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               chi sono
-            </a>
+            </button>
             <a
               href="/#servizi"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"

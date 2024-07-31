@@ -16,6 +16,7 @@ import SostegnoPsicologico from "../Components/Sezioni/SostegnoPsicologico";
 import Contatti from "../Components/Contatti";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Navbar from "../Components/Navbar";
 function Homepage() {
   const location = useLocation();
 
@@ -29,6 +30,7 @@ function Homepage() {
   }, [location]);
   return (
     <>
+      <Navbar />
       <div
         className=" bg-cover max-h-fit bg-bottom"
         // style={{
