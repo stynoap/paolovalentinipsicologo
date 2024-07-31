@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PrimaryButton from "./PrimaryButton";
+import SecondaryButton from "./SecondaryButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -97,7 +98,7 @@ function Navbar() {
               
             </a> */}
         
-            <PrimaryButton href="#contatti" testo="Contattami" />
+            <SecondaryButton href="#contatti" text="Contattami" />
           </div>
         </div>
       </div>
