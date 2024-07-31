@@ -44,7 +44,7 @@ function Homepage() {
               }}
             ></div>
             <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0 ">
-              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16">
+              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16 ">
                 Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
                 33 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
                 psicologi delle Marche (n°3136). <br /> Mi sono laureato nella
@@ -65,7 +65,7 @@ function Homepage() {
         
         </div>
       </div>
-      <p className="text-slate-700 px-6 text-2xl leading-snug  text-center">
+      <p className="text-slate-700 px-6 text-2xl leading-snug  text-center lg:mt-0 mt-14">
             Mi potete trovare al{" "}
             <b>Centro di psicologia e psicoterapia Legàmi</b> di Via Italia, 32,
             63813 Monte Urano (FM)
