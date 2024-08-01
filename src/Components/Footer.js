@@ -13,8 +13,8 @@ function Footer() {
                   class=" w-12 p-0 mr-2"
                   alt="Paolo Valentini Logo"
                 />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap ">
-                  Paolo Valentini Psicologo
+                <span class="self-center lg:text-2xl font-semibold whitespace-nowrap ">
+                  <a href="/">Paolo Valentini Psicologo</a>
                 </span>
               </div>
             </div>
@@ -99,6 +99,7 @@ function Footer() {
               </a>
             </div>
           </div>
+         <p className="text-xs"> Icons by <a href="https://icons8.it/" className=" underline">Icons8</a></p>
         </div>
       </footer>
     </>
