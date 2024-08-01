@@ -71,7 +71,7 @@ function Navbar() {
             <button
               href="/chi-sono"
               onClick={(()=>{navigate("/chi-sono")})}
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink uppercase relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               chi sono
             </button>

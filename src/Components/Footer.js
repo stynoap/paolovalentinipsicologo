@@ -13,8 +13,8 @@ function Footer() {
                   class=" w-12 p-0 mr-2"
                   alt="Paolo Valentini Logo"
                 />
-                <span class="self-center lg:text-2xl font-semibold whitespace-nowrap ">
-                  <a href="/">Paolo Valentini Psicologo</a>
+                <span class="self-center lg:text-2xl font-semibold whitespace-nowrap  ">
+                  <a className="hover:bg-slate-500" href="/">Paolo Valentini Psicologo</a>
                 </span>
               </div>
             </div>
