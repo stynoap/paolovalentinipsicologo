@@ -23,24 +23,14 @@ function About() {
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">
               Chi sono
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed lg:w-11/12 mx-auto mb-10">
-              Da sempre sono affascinato dalla complessità della mente umana e
-              dalle relazioni interpersonali. La mia passione per la psicologia
-              nasce dal desiderio di aiutare le persone a comprendere meglio se
-              stesse e a trovare una via per vivere una vita più soddisfacente e
-              autentica. Credo fermamente che, con il giusto supporto, ogni
-              individuo possa superare le proprie difficoltà e scoprire nuove
-              prospettive.
-            </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Ho conseguito la laurea in Psicologia presso l'Università di
               Urbino e sono iscritto all'Albo A dell'Ordine degli psicologi
               delle Marche (n°3136). La mia formazione continua attraverso corsi
               e aggiornamenti per garantire un supporto psicologico basato sulle
-              più recenti evidenze scientifiche. Ho pubblicato diversi articoli
-              su riviste specializzate, concentrandomi su tematiche come
-              l'adolescenza, le dinamiche di coppia e la gestione dello stress.
+              più recenti evidenze scientifiche.
             </p>
+          
           </div>
 
           {/* Sezione 2: Cosa Faccio e i Benefici */}
