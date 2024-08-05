@@ -49,10 +49,12 @@ function Homepage() {
             ></div>
             <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0 ">
               <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16 ">
-                Sono <b className="tracking-widest">Paolo Valentini,</b> <br />{" "}
-                33 anni, <b>psicologo</b> iscritto all'Albo A dell'Ordine degli
-                psicologi delle Marche (n°3136). <br /> Mi sono laureato nella
-                facoltà di psicologia di Urbino.
+                Sono <b className="tracking-widest"> Paolo Valentini</b>, 33 anni,{" "}
+                <b>psicologo</b> laureato presso l'Università degli studi di
+                Urbino, in Psicologia Clinica. Sono iscritto all'ordine degli
+                psicologi delle Marche e sono uno specializzando in psicologia
+                analitica - archetipica presso la scuola di specializzazione
+                Atanor.
               </p>
 
               {/* <p className="hidden lg:text-right lg:relative right-16 font-light lg:mt-8 lg:mr-24 text-slate-100 tracking-widest leading-7">

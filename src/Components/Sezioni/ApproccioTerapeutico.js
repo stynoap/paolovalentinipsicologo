@@ -22,7 +22,6 @@ function ApproccioTerapeutico() {
         <div className="lg:w-8/12 ">
           <div className="mt-14 leading-9 gap-4 flex flex-col  text-slate-900 tracking-wide font-medium mx-10 text-left items-center w-fit">
             <div>
-
               <SubTitles
                 text="La psicologia
               archetipica"
@@ -73,15 +72,15 @@ function ApproccioTerapeutico() {
                   backgroundImage: `url(${ghianda})`,
                 }}
               ></div>
-              <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
+              <p className="text-xl leading-9 bold  italic mb-9 lg:mt-0 mt-6">
                 {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+               <b>"</b> Prima della nascita, l'anima di ciascuno di noi sceglie
+                un'immagine o un disegno che poi vivremo sulla terra, e riceve
+                un compagno che ci guidi quassù, un daimon, che è unico e tipico
+                nostro <b>"</b>
+                <p className="text-right"> James Hillman</p>
               </p>
+           
 
               <p className="clear-both">
                 La teoria della ghianda di James Hillman, descritta nel suo
