@@ -58,7 +58,7 @@ function About() {
           </div>
 
           <div className="mb-16">
-            <p className="text-lg text-gray-700 leading-relaxed font-bold mb-10">
+            <p className="text-lg text-gray-700 leading-relaxed font-bold mb-32 mt-32">
               Il mio obiettivo è accompagnare ogni paziente verso una maggiore
               consapevolezza di sé e il raggiungimento di un equilibrio
               psicologico duraturo. La mia priorità è offrire un ascolto attento

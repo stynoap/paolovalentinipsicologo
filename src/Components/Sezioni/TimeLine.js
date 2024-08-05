@@ -31,7 +31,7 @@ return(
         </div> */}
         
         {/* <!-- right timeline --> */}
-        <div class="mb-8 flex justify-between items-center w-full right-timeline">
+        <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline mt-16">
           <div class="order-1 w-5/12"></div>
           {/* <div class="z-20 flex items-center order-1 bg-slate-200 shadow-xl w-14 h-8 rounded-full">
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2023</h1>
@@ -39,6 +39,18 @@ return(
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 class="mb-3 font-bold text-slate-700 text-xl">Specializzando in psicoterapia</h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Attualmente iscritto al 2° anno del corso di Specializzazione quadriennale in Psicoterapia Analitico-Archetipica "Atanor" Scoppito (AQ)</p>
+          </div>
+        </div>
+
+
+        <div class="mb-8 flex justify-between items-center w-full right-timeline">
+          <div class="order-1 w-5/12"></div>
+          {/* <div class="z-20 flex items-center order-1 bg-slate-200 shadow-xl w-14 h-8 rounded-full">
+            <h1 class="mx-auto font-semibold text-lg text-slate-700">2023</h1>
+          </div> */}
+          <div class="order-1 bg-slate-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 class="mb-3 font-bold text-slate-700 text-xl">Esame di Stato Psicologi</h3>
+            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">PSICOLOGO SEZ. A ( N.3161) Ordine degli Psicologi della regione Marche</p>
           </div>
         </div>
     
