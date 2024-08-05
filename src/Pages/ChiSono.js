@@ -4,7 +4,6 @@ import Formazione from "../Components/Sezioni/Formazione";
 import PrimaryButton from "../Components/PrimaryButton";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
-import TimeLine from "../Components/Sezioni/TimeLine";
 
 function About() {
   const navigate = useNavigate();
@@ -72,7 +71,7 @@ function About() {
           </div>
 
           <Formazione />
-          <TimeLine />
+          {/* <TimeLine /> */}
         </div>
       </section>
     </>

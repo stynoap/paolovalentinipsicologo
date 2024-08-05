@@ -1,12 +1,13 @@
 import SubTitles from "../SubTitles";
 import TitleSection from "../TitleSection";
+import TimeLine from "./TimeLine";
 
 function Formazione() {
   return (
     <div className="w-full" id="formazione">
-      <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-200 my-8 bg-opacity-70  text-slate-800 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-4/5">
+      {/* <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-200 my-8 bg-opacity-70  text-slate-800 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-full"> */}
         <TitleSection text="La mia formazione" />
-        <ul className="list-disc list-inside space-y-4 mt-12">
+        {/* <ul className="list-disc list-inside space-y-4 mt-12">
           <li>
             dal 01/01/2023- specializzando in psicoterapia. Attualmente iscritto
             al 2° anno del corso di Specializzazione quadriennale in
@@ -59,7 +60,8 @@ function Formazione() {
             Laurea triennale in Scienze e Tecniche psicologiche presso
             Università degli studi di Urbino Carlo Bo
           </li>
-        </ul>
+        </ul> */}
+        <TimeLine />
         <SubTitles text="Pubblicazioni" />
         <div className="mt-4 text-slate-700">
           <p className="italic">
@@ -81,7 +83,7 @@ function Formazione() {
           <p className="mt-4"></p>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 
