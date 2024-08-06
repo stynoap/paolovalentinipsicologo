@@ -1,4 +1,3 @@
-
 import SecondaryButton from "../SecondaryButton";
 
 function About() {
@@ -10,34 +9,29 @@ function About() {
             Dott. Paolo Valentini
           </h1>
           <p className="w-3/4 my-3 py-2 text-slate-700 text-xl font-medium leading-9 tracking-wide">
-            Mi sono occupato negli anni di adolescenti e famiglie in carico ai
-            servizi sociali, ho lavorato a lungo nelle scuole come assistente
-            all'educativa scolastica, ho avuto esperienze lavorative e di
-            tirocinio nell'ambito di comunità residenziali per la salute
-            mentale, nelle comunità per tossicodipenti e negli attuali sistemi
-            di accoglienza e integrazione. 
-            <br />
-            <br />
-            Ho continuato la formazione in
-            Psicologia tramite un tirocinio nell'università di Urbino in cui ho
-            integrato al corso di studi universitario modalità e diversi appocci
-            specifici di intervento.
-            <br />
-            <br />
-            Ho approfondito i temi della mia tesi di
-            laurea magistrale attraverso un lavoro di ricerca scientifica con un
-            focus specifico verso i disturbi dello spettro della schizofrenia
-            nel setting della terapia individuale con orientamento psicodinamico
-            e analitico.
+            La vita è trasformazione, movimento, è dynamis. Nessun modello
+            teorico e nessun particolare tipo di intervento terapeutico si è
+            dimostrato, anche scientificamente, superiore ad un altro, non c'è
+            nessuna consequenzialità tra teoria psicologica e prassi terapeutica
+            e la “guarigione” avviene in contesti clinici, modalità, luoghi, e
+            tempi completamenti disparati. Solo da qui posso partire per dire
+            che ciò che ascolto attivamente e ciò che restituisco al paziente
+            non sono solamente il frutto di una strategia terapeutica imparata
+            sui libri ma il frutto delle mie ferite, dei miei traumi, dei miei
+            successi e fallimenti e della condivisione con le sofferenze altrui.
+            Adotto quindi una tecnica dinamica che cambia con me via via che la
+            vita mi tocca con le esperienze e gli accadimenti, una tecnica
+            diversa quindi per ogni paziente e che si trasforma ogni seduta.
           </p>
-
+{/* 
           <p className="lg:text-slate-700 text-slate-700 font-medium leading-9 text-xl italic w-3/4 py-5">
             Attualmente frequento il secondo anno della scuola di{" "}
             <b>psicoterapia analitica-archetipico-gestaltica "Atanor"</b> che mi
-            accompagna nello studio della <b>psicologia del profondo.</b>{" "}
-            La scuola <b>Atanor</b> è la prima scuola di psicoterapia ad indirizzo analitico archetipico del Centro Italia
-          </p>
-          <SecondaryButton text="Scopri di più sul mio approccio"/>
+            accompagna nello studio della <b>psicologia del profondo.</b> La
+            scuola <b>Atanor</b> è la prima scuola di psicoterapia ad indirizzo
+            analitico archetipico del Centro Italia
+          </p> */}
+          <SecondaryButton text="Scopri di più sul mio approccio" />
         </div>
       </div>
     </>

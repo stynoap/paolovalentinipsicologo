@@ -5,7 +5,7 @@ import SecondaryButton from "../SecondaryButton";
 import { useNavigate } from "react-router-dom";
 // import piantina from "../../icone/piantina.jpeg";
 import congiunzioni from "../../icone/congiunzioni.jpeg";
-import ghianda from "../../icone/ghianda.jpg";
+// import ghianda from "../../icone/ghianda.jpg";
 
 function ApproccioTerapeutico() {
   const navigate = useNavigate();
@@ -65,7 +65,7 @@ function ApproccioTerapeutico() {
                 dentro di noi a quanto avviene a tutti gli individui nel corso
                 di ogni tempo e luogo.
               </p>
-              <SubTitles text="La teoria della ghianda" />
+              {/* <SubTitles text="La teoria della ghianda" />
               <div
                 className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg"
                 style={{
@@ -79,9 +79,9 @@ function ApproccioTerapeutico() {
                 un compagno che ci guidi quassù, un daimon, che è unico e tipico
                 nostro <b>"</b>
                 <p className="text-right"> James Hillman</p>
-              </p>
+              </p> */}
            
-
+{/* 
               <p className="clear-both">
                 La teoria della ghianda di James Hillman, descritta nel suo
                 libro "Il codice dell'anima," postula che ogni individuo nasca
@@ -98,7 +98,7 @@ function ApproccioTerapeutico() {
                 proponendo invece una prospettiva che mette in risalto
                 l'importanza di scoprire e vivere in armonia con il proprio
                 destino personale e autentico.
-              </p>
+              </p> */}
             </div>
             <SecondaryButton
               onclick={() => {
