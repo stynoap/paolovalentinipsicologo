@@ -6,7 +6,7 @@ function Formazione() {
   return (
     <div className="w-full mt-36" id="formazione">
       {/* <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-200 my-8 bg-opacity-70  text-slate-800 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-full"> */}
-        <TitleSection text="La mia formazione" />
+        <TitleSection text="Curriculum" />
         {/* <ul className="list-disc list-inside space-y-4 mt-12">
           <li>
             dal 01/01/2023- specializzando in psicoterapia. Attualmente iscritto

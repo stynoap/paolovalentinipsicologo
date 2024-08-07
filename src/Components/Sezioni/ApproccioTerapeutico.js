@@ -1,46 +1,82 @@
 import TitleSection from "../TitleSection";
 // import approcciobg from "../../header-bg-emerald.png";
 import SubTitles from "../SubTitles";
-import SecondaryButton from "../SecondaryButton";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import piantina from "../../icone/piantina.jpeg";
 import congiunzioni from "../../icone/congiunzioni.jpeg";
 // import ghianda from "../../icone/ghianda.jpg";
 
 function ApproccioTerapeutico() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <>
       <div
         // style={{
         //   backgroundImage: `url(${approcciobg})`,
         // }}
-        className=" pt-14 bg-slate-50 w-12/12 flex flex-col items-center justify-center "
+        className=" pt-14 bg-slate-50 w-12/12 flex flex-col items-center justify-center py-36 "
         id="approccio-terapeutico"
       >
         <TitleSection text="L'approccio analitico archetipico"></TitleSection>
         <div className="lg:w-8/12 ">
           <div className="mt-14 leading-9 gap-4 flex flex-col  text-slate-900 tracking-wide font-medium mx-10 text-left items-center w-fit">
             <div>
-              <SubTitles
+
+            <SubTitles
                 text="La psicologia
-              archetipica"
+              analitica"
               />
               <div
-                className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg"
+                className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg mb-20"
                 style={{
                   backgroundImage: `url(${congiunzioni})`,
                 }}
               ></div>
               <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
                 {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                "Non c'è luce senza ombre e non c'è pienezza psichica senza
+                imperfezioni. La vita richiede per la sua realizzazione non la
+                perfezione, ma la pienezza" 
               </p>
+              <p>C.G. Jung</p>
+
+         
+
+              <p className="clear-both">
+                La psicologia analitica è la psicologia di Carl Gustav Jung. La
+                psiche è un sistema dinamico e complesso che cerca di mantenere
+                un equilibrio nel gioco di forze che lo compongono. Jung si
+                sofferma alla base delle dinamiche inconsce che sorreggono i
+                sintomi. Più che una loro eliminazione, essi vanno compresi,
+                perchè sono donatori di un significato e quindi elementi di
+                trasformazione della personalità. Per Jung tutti noi siamo
+                spinti da forza sconosciute espressione di uno strato profondo,
+                innato, universale che chiama inconscio collettivo costituito da
+                archetipi. Lo scopo cardine della psicologia analitica è un
+                ampliamento delle propria personalità e uno sviluppo delle
+                proprie potenzialità uniche attraverso un riconoscimento e
+                rispecchiamento dei propri valori più autentici e di una
+                differenziazione da quelli collettivi nel percorso a cui
+                l'energia psichica tende, cioè al processo di individuazione, un
+                percorso che mira non alla perfezione ma alla completezza e alla
+                realizzazione personale.
+              </p>
+              <p>
+                Con James Hillman il processo di indivuduazione non avrà come
+                scopo la realizzazione del sé individale ma dei singoli
+                immaginari. Scompaiono le parole inconscio e coscienza, ogni
+                immagine è archetipica e l'obiettivo della terapia non è più
+                portare a coscienza ciò che era inconscio con la partecipazione
+                diretta del soggetto e dell'Io ma rimemorare le immagini
+                attraverso i racconti
+              </p>
+             
+            </div>
+            <div>
+              <SubTitles
+                text="La psicologia
+              archetipica di James Hillman"
+              />
 
               <p className="clear-both">
                 Il pricincio cardine della psicologia Archetipica risulta
@@ -65,48 +101,15 @@ function ApproccioTerapeutico() {
                 dentro di noi a quanto avviene a tutti gli individui nel corso
                 di ogni tempo e luogo.
               </p>
-              {/* <SubTitles text="La teoria della ghianda" />
-              <div
-                className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg"
-                style={{
-                  backgroundImage: `url(${ghianda})`,
-                }}
-              ></div>
-              <p className="text-xl leading-9 bold  italic mb-9 lg:mt-0 mt-6">
-                {" "}
-               <b>"</b> Prima della nascita, l'anima di ciascuno di noi sceglie
-                un'immagine o un disegno che poi vivremo sulla terra, e riceve
-                un compagno che ci guidi quassù, un daimon, che è unico e tipico
-                nostro <b>"</b>
-                <p className="text-right"> James Hillman</p>
-              </p> */}
-           
-{/* 
-              <p className="clear-both">
-                La teoria della ghianda di James Hillman, descritta nel suo
-                libro "Il codice dell'anima," postula che ogni individuo nasca
-                con un "daimon" o vocazione unica, un concetto derivato dalla
-                filosofia antica che rappresenta una sorta di guida interiore.
-                Hillman utilizza la metafora della ghianda per illustrare l'idea
-                che ogni persona porta dentro di sé un potenziale specifico e
-                predeterminato, simile a come una quercia è già contenuta in una
-                ghianda. Questo destino innato, secondo Hillman, non è
-                determinato dalle esperienze passate o dall'ambiente, ma è un
-                aspetto intrinseco della persona che cerca espressione e
-                realizzazione. La teoria sfida le visioni psicologiche
-                tradizionali che si concentrano su traumi e influenze esterne,
-                proponendo invece una prospettiva che mette in risalto
-                l'importanza di scoprire e vivere in armonia con il proprio
-                destino personale e autentico.
-              </p> */}
             </div>
-            <SecondaryButton
+            {/* <SecondaryButton
               onclick={() => {
                 navigate("/approccio");
               }}
               text="Approfondisci"
-            />
+            /> */}
           </div>
+          
         </div>
       </div>
     </>

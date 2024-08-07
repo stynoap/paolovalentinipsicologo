@@ -6,7 +6,6 @@ import Servizio from "../Components/Sezioni/Servizio";
 import { servizi } from "../data";
 import TitleSection from "../Components/TitleSection";
 // import servizibg from "./../header-bg-emerald-100.png";
-import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
 import PrimaryButton from "../Components/PrimaryButton";
 import Tariffe from "../Components/Sezioni/Tariffe";
 import IndicazioniStudio from "../Components/Sezioni/IndicazioniStudio";
@@ -48,7 +47,7 @@ function Homepage() {
               }}
             ></div>
             <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0 ">
-              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16 ">
+              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-neutral-700 lg:ml-16 ">
                 Sono <b className="tracking-widest"> Paolo Valentini</b>, 33 anni,{" "}
                 <b>psicologo</b> laureato presso l'Università degli studi di
                 Urbino, in Psicologia Clinica. Sono iscritto all'ordine degli
@@ -65,12 +64,13 @@ function Homepage() {
               <PrimaryButton
                 href="#contatti"
                 testo="Prenota il primo colloquio"
+                cta="true"
               />
             </div>
           </div>
         </div>
       </div>
-      <p className="text-slate-700 px-6 text-2xl leading-snug  text-center lg:mt-0 mt-14">
+      <p className="text-neutral-700 px-6 text-2xl leading-snug  text-center lg:mt-0 mt-14">
         Mi potete trovare al <b>Centro di psicologia e psicoterapia Legàmi</b>{" "}
         di Via Italia, 32, 63813 Monte Urano (FM)
       </p>
@@ -108,7 +108,6 @@ function Homepage() {
       {/* <Formazione /> */}
       <Tariffe />
 
-      <ApproccioTerapeutico />
       <Contatti />
 
       <IndicazioniStudio />

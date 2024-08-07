@@ -1,14 +1,15 @@
 import React from "react";
-
-import Article from "../Components/Article";
 import Navbar from "../Components/Navbar";
+import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
+import Article from "../Components/Article"
 
 function Approccio() {
   return (
     <>
       <Navbar />
       <main className="">
-        <Article></Article>
+        <ApproccioTerapeutico />
+        <Article />
       </main>
     </>
   );

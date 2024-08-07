@@ -14,20 +14,20 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-slate-100">
+    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-neutral-50">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
             {" "}
             <a
               href="/"
-              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-slate-700 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-gray-700 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
             </a>
           </p>
 
-          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-slate-700 no-underline flex items-center hover:bg-grey-dark">
+          <p className="flex-no-grow flex-no-shrink lg:tracking-widest lg:font-medium lg:text-xl  relative px-4 leading-normal text-gray-700 no-underline flex items-center hover:bg-grey-dark">
             psicologo
           </p>
         </div>
@@ -38,7 +38,7 @@ function Navbar() {
         >
           {isOpen ? (
             <svg
-              className="fill-current text-slate-700"
+              className="fill-current text-gray-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -46,7 +46,7 @@ function Navbar() {
             </svg>
           ) : (
             <svg
-              className="fill-current text-slate-700"
+              className="fill-current text-gray-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -81,12 +81,12 @@ function Navbar() {
             >
               servizi
             </a>
-            <a
-              href="/#approccio-terapeutico"
+            <button
+               onClick={(()=>{navigate("/approccio")})}
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
             >
               approccio
-            </a>
+            </button>
             <a
               href="/#tariffe"
               className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal   hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
