@@ -15,7 +15,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2024</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">Lorem Ipsum</h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 12000s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div> */}
@@ -27,7 +27,7 @@ function TimeLine() {
             <h1 class="mx-auto text-slate-700 font-semibold text-lg">2023</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">Lorem Ipsum</h3>
             <p class="text-sm font-medium leading-snug tracking-wide text-slate-700 text-opacity-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 12000s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div> */}
@@ -39,7 +39,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2023</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Specializzando in psicoterapia
             </h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">
@@ -57,7 +57,7 @@ function TimeLine() {
             <h1 class="mx-auto text-slate-700 font-semibold text-lg">2023</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               {" "}
               Tirocinio Associazione Dianova Onlus{" "}
             </h3>
@@ -75,7 +75,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2021</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Educatore di assistenza scolastica e domiciliare{" "}
             </h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">
@@ -96,7 +96,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2020</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Esame di Stato Psicologi
             </h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">
@@ -113,7 +113,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2021</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               {" "}
               Servizio Civile presso Comunità educativa per minori "Casa di
               Mattoni"
@@ -131,7 +131,7 @@ function TimeLine() {
             <h1 class="mx-auto text-slate-700 font-semibold text-lg">2020</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Tirocinio post-Laurea
             </h3>
             <p class="text-sm font-medium leading-snug tracking-wide text-slate-700 text-opacity-200">
@@ -151,7 +151,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2020</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Tirocinio post-Laurea
             </h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">
@@ -171,7 +171,7 @@ function TimeLine() {
             <h1 class="mx-auto text-slate-700 font-semibold text-lg">2019</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Laurea Magistrale in Psicologia Clinica
             </h3>
             <p class="text-sm font-medium leading-snug tracking-wide text-slate-700 text-opacity-200">
@@ -188,7 +188,7 @@ function TimeLine() {
             <h1 class="mx-auto font-semibold text-lg text-slate-700">2014</h1>
           </div>
           <div class="order-1 bg-slate-200 rounded-lg shadow-xl lg:w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-slate-700 text-xl">
+            <h3 class="mb-3 font-bold text-slate-700 lg:text-xl">
               Laurea triennale in Scienze e Tecniche psicologiche
             </h3>
             <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-200">
