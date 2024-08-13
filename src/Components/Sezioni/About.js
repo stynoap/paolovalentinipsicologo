@@ -11,7 +11,7 @@ function About() {
           <h1 className="lg:text-5xl text-3xl font-semibold  mb-5 lg:mb-9 text-slate-800">
             Dott. Paolo Valentini
           </h1>
-          <p className="w-3/4 my-3 py-2 text-slate-700 text-xl font-medium leading-9 tracking-wide">
+          <p className="w-3/4 my-3 py-2 text-slate-700 lg:text-md leading-10 tracking-wide">
             La vita è trasformazione, movimento, è dynamis. Nessun modello
             teorico e nessun particolare tipo di intervento terapeutico si è
             dimostrato, anche scientificamente, superiore ad un altro,non c'è
@@ -26,7 +26,7 @@ function About() {
             vita mi tocca con le esperienze e gli accadimenti, una tecnica
             diversa quindi per ogni paziente e che si trasforma ogni seduta.
           </p>
-          <p className="w-3/4 my-3 py-2 text-slate-700 text-xl font-medium leading-9 tracking-wide">
+          <p className="w-3/4 my-3 py-2 text-slate-700 lg:text-md leading-10 tracking-wide">
             Ho scelto <b><a href="#approccio-terapeutico">l'approccio analitico-archetipico</a></b> perchè sono stato
             toccato dagli' “incontri” con analisti C.G. Jung e poi
             successivamente, <b>James Hillman.</b> Essi ridanno centralità al cuore

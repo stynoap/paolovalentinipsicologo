@@ -14,14 +14,14 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-opacity-80 select-none z-10 lg:flex lg:items-stretch w-full bg-neutral-50">
+    <nav className=" select-none z-10 lg:flex lg:items-stretch w-full bg-blue-50">
       <div className="flex flex-no-shrink items-stretch  pb-8">
         <div className=" flex flex-col items-center">
           <p>
             {" "}
             <a
               href="/"
-              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-slate-400 text-gray-700 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-2 px-4 lg:text-2xl font-light lg:tracking-wider leading-normal pt-4 hover:text-emerald-400 text-gray-700 no-underline flex items-center hover:bg-grey-dark"
             >
               Dott. Paolo Valentini
             </a>
@@ -64,32 +64,32 @@ function Navbar() {
           <div className="lg:flex lg:tracking-widest font-semibold lg:gap-7 lg:items-stretch lg:justify-center mx-auto lg:ml-48">
             <a
               href="/"
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               home
             </a>
             <button
               href="/chi-sono"
               onClick={(()=>{navigate("/chi-sono")})}
-              className="flex-no-grow flex-no-shrink uppercase lg:normal-case relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink uppercase lg:normal-case relative py-4 px-8 lg:px-3 leading-normal  hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               chi sono
             </button>
             <a
               href="/#servizi"
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3  leading-normal  hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               servizi
             </a>
             <button
                onClick={(()=>{navigate("/approccio")})}
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink uppercase lg:normal-case relative py-4 px-8 lg:px-3 leading-normal  hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               approccio
             </button>
             <a
               href="/#tariffe"
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal   hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal   hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               tariffe
             </a>
@@ -98,7 +98,7 @@ function Navbar() {
           <div className="lg:ml-auto lg:mr-12 lg:mt-2">
             {/* <a
               href="#contatti"
-              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-slate-400 no-underline flex items-center hover:bg-grey-dark"
+              className="flex-no-grow flex-no-shrink relative py-4 px-8 lg:px-3 leading-normal  hover:text-emerald-400 no-underline flex items-center hover:bg-grey-dark"
             >
               
             </a> */}

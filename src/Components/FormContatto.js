@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import SecondaryButton from "./SecondaryButton";
+// import SecondaryButton from "./SecondaryButton";
+import PrimaryButton from "./PrimaryButton";
 
 function FormContatto() {
   const [isEmailSend, setEmailSend]=useState(false);
@@ -47,12 +48,12 @@ function FormContatto() {
         name="contact"
         onSubmit={handleFormSubmission}
         // Rimuovi data-netlify="true" se usi fetch
-        className="max-w-2xl bg-white py-10 px-5 m-auto w-full lg:rounded-xl lg:border-gray-100 lg:border-8"
+        className="max-w-2xl bg-white py-10 px-5 m-auto w-full lg:rounded-xl lg:border-slate-100 lg:border-8"
         // action="/" // Rimuovi action se usi fetch
       >
         <input type="hidden" name="form-name" value="contact"></input>
 
-        <div className="text-3xl mb-6 text-center">Scrivimi</div>
+        <div className="text-3xl mb-6 text-center">Scrivimi per prenotare un colloquio</div>
 
         <div className="grid grid-cols-2 gap-4 max-w-xl m-auto">
           <p className="col-span-2 lg:col-span-1">
@@ -100,7 +101,7 @@ function FormContatto() {
           </p>
 
           <div className="col-span-2 text-center">
-            <SecondaryButton type="submit" text="Inviami un'email"/>
+            <PrimaryButton type="submit" testo="Invia la tua richiesta" cta="true"/>
             
           </div>
           {isEmailSend && isVisible && ( <p>Email inviata correttamente</p>)}

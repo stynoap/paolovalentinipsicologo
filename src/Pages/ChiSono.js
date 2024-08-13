@@ -3,22 +3,23 @@ import Formazione from "../Components/Sezioni/Formazione";
 import PrimaryButton from "../Components/PrimaryButton";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
+import Contatti from "../Components/Contatti";
+// import SubTitles from "../Components/SubTitles";
 
 function About() {
   const navigate = useNavigate();
 
   const navForm = () => {
     navigate("/#contatti");
-    console.log("tua mamma");
   };
 
   return (
     <>
       <Navbar />
       <section id="about" className="bg-neutral-50 py-16">
-        <div className="container mx-auto px-6 lg:px-20 text-lg">
+        <div className="px-6 lg:px-20 text-md">
           {/* Sezione 1: Perché faccio quello che faccio */}
-          <div className="mb-16">
+          <div className="mb-16 text-left leading-relaxed">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">
               Formazione e Background
             </h2>
@@ -74,22 +75,23 @@ function About() {
             </p>
           </div>
 
-          <div className="mb-16">
+          <div className="mb-16 text-left leading-relaxed">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">
               Esperienze nel campo lavorativo
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Durante il lavoro nei servizi sociali, in qualità di educatore, ho
-              potuto esperire nel vivo le modalità di funzionamento di famiglie
-              in difficoltà e stare a contatto con le dinamiche interne del
-              sistema famigliare e dei minori al loro interno. Ho potuto
+            <p className="text-md text-gray-700  mb-6">
+              Durante il lavoro nei servizi sociali, in qualità di{" "}
+              <b>educatore</b>, ho potuto esperire nel vivo le modalità di
+              funzionamento di famiglie in difficoltà e stare a contatto con le
+              dinamiche interne del
+              <b> sistema famigliare</b> e dei minori al loro interno. Ho potuto
               osservare e seguire i minori sia all'interno dei contesti
               domestici che nelle attività disposte dai servizi sociali.
             </p>
 
             <p>
               Ho elaborato e ho osservato la preparazione e lo svolgimento di
-              laboratori ad hoc per l'espressività di minori e adulti
+              <b> laboratori</b> ad hoc per l'espressività di minori e adulti
               comprendendo ulteriormente l'importanza del lavoro in equipe e
               delle figure più esperte.
             </p>
@@ -99,15 +101,34 @@ function About() {
               territoriali.
             </p>
             <p>
-              Nel lavoro scolastico in qualità di assistente all'educativa ho
-              aiutato il minore adolescente nelle attività espressive, manuali e
-              didattiche in modo da aiutare l'adolescente nei problemi di
-              autonomia e comunicazione. Anche in questo caso il mio faro è
-              stato fare un lavoro di rete con le altre figure di riferimento.
+              Nel <b>lavoro scolastico</b> in qualità di assistente
+              all'educativa ho aiutato il minore adolescente nelle attività
+              espressive, manuali e didattiche in modo da aiutare l'adolescente
+              nei problemi di autonomia e comunicazione. Anche in questo caso il
+              mio faro è stato fare un lavoro di rete con le altre figure di
+              riferimento.
             </p>
-
           </div>
-
+          {/* <SubTitles text="Pubblicazioni" />
+          <div className="mt-4 text-slate-700">
+            <p className="italic">
+              Rivista semestrale di psicologia del profondo "Il Minotauro" (ISSN
+              2037-4216) - N° del Giugno 2020.
+            </p>
+            <p className="mt-4 text-sm pb-7 tracking-widest leading-8 bg-slate-50 px-3 py-3 rounded-xl bg-opacity-70 shadow-lg">
+              Le figure di <b>Sisifo</b> e del <b>Sisifo Felice</b> di{" "}
+              <b>Camus</b> sono dei simboli che mi hanno consentito di
+              riflettere sulla psicosi fuori e dentro il setting terapeutico e
+              di focalizzarmi su alcune dimensioni quali: il dolore, l’alleanza
+              con l’assurdo, la coazione a ripetere, l’elaborazione
+              trasformativa attraverso i sogni e la figurabilità. Nel disturbo
+              psicotico della simbolizzazione viene a perdersi la base
+              intermedia (il simbolo) sulla quale galleggiano gli opposti, non
+              c’è integrazione tra identità e differenza, simbiosi e
+              separazione, inconscio e coscienza.
+            </p>
+            <p className="mt-4"></p>
+          </div> */}
 
           <div className="mb-16">
             <PrimaryButton
@@ -118,7 +139,7 @@ function About() {
           </div>
 
           <Formazione />
-          
+          <Contatti />
         </div>
       </section>
     </>

@@ -1,4 +1,4 @@
-import SubTitles from "../SubTitles";
+// import SubTitles from "../SubTitles";
 import TitleSection from "../TitleSection";
 import TimeLine from "./TimeLine";
 
@@ -6,7 +6,7 @@ function Formazione() {
   return (
     <div className="w-full mt-36" id="formazione">
       {/* <div className="flex flex-col items-center mt-6 px-14 py-12 mx-auto bg-slate-200 my-8 bg-opacity-70  text-slate-800 font-medium leading-9 text-lg shadow-md rounded-lg lg:w-full"> */}
-        <TitleSection text="Curriculum" />
+        <TitleSection text="esperienze e formazione" />
         {/* <ul className="list-disc list-inside space-y-4 mt-12">
           <li>
             dal 01/01/2023- specializzando in psicoterapia. Attualmente iscritto
@@ -62,26 +62,7 @@ function Formazione() {
           </li>
         </ul> */}
         <TimeLine />
-        <SubTitles text="Pubblicazioni" />
-        <div className="mt-4 text-slate-700">
-          <p className="italic">
-            Rivista semestrale di psicologia del profondo "Il Minotauro" (ISSN
-            2037-4216) - N° del Giugno 2020.
-          </p>
-          <p className="mt-4 text-sm pb-7 tracking-widest leading-8 bg-slate-50 px-3 py-3 rounded-xl bg-opacity-70 shadow-lg">
-            Le figure di <b>Sisifo</b> e del <b>Sisifo Felice</b> di{" "}
-            <b>Camus</b> sono dei simboli che mi hanno consentito di riflettere
-            sulla psicosi fuori e dentro il setting terapeutico e di
-            focalizzarmi su alcune dimensioni quali: il dolore, l’alleanza con
-            l’assurdo, la coazione a ripetere, l’elaborazione trasformativa
-            attraverso i sogni e la figurabilità. Nel disturbo psicotico della
-            simbolizzazione viene a perdersi la base intermedia (il simbolo)
-            sulla quale galleggiano gli opposti, non c’è integrazione tra
-            identità e differenza, simbiosi e separazione, inconscio e
-            coscienza.
-          </p>
-          <p className="mt-4"></p>
-        </div>
+       
       </div>
     // </div>
   );

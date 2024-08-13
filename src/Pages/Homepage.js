@@ -38,16 +38,16 @@ function Homepage() {
         //   backgroundImage: `url(${headerbg})`,
         // }}
       >
-        <div className=" ">
-          <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7 max-h-fit">
+        <div className=" bg-blue-50">
+          <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:pt-5 pt-7 max-h-fit ">
             <div
               className=" lg:basis-1/3 w-10/12 h-96 bg-contain  lg:bottom-32  lg:relative lg:bg-cover bg-top bg-no-repeat  lg:mt-16 lg:mr-10  lg:h-[560px] lg:w-80"
               style={{
                 backgroundImage: `url(${paolovalentini})`,
               }}
             ></div>
-            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0 ">
-              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-neutral-700 lg:ml-16 ">
+            <div className="relative lg:leading-6 lg:bottom-16 lg:basis-2/5 mt-4 lg:mt-0 pb-11 lg:pb-0 ">
+              <p className="leading-10  px-5 tracking-wider text-lg lg:text-left mb-16  text-slate-700 lg:ml-16 ">
                 Sono <b className="tracking-widest"> Paolo Valentini</b>, 33 anni,{" "}
                 <b>psicologo</b> laureato presso l'Università degli studi di
                 Urbino, in Psicologia Clinica. Sono iscritto all'ordine degli
@@ -67,14 +67,18 @@ function Homepage() {
                 cta="true"
               />
             </div>
+      
           </div>
+       
         </div>
+     
       </div>
-      <p className="text-neutral-700 px-6 text-2xl leading-snug  text-center lg:mt-0 mt-14">
+      <p className="text-slate-700 lg:text-xl text-lg leading-snug flex items-center flex-col  text-center  lg:mt-0 lg:bg-white py-7 lg:w-5/12 mx-auto lg:relative lg:bottom-16 lg:rounded-3xl">
         Mi potete trovare al <b>Centro di psicologia e psicoterapia Legàmi</b>{" "}
         di Via Italia, 32, 63813 Monte Urano (FM)
       </p>
-      <div className="mt-20 mb-20">
+   
+      <div className=" mb-20 bg-white py-12">
         <TitleSection text="I Servizi" />
         <div id="servizi" className="mt-8 flex flex-col items-center">
           <div className="flex justify-center w-full">

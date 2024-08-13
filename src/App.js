@@ -7,7 +7,7 @@ import ChiSono from "./Pages/ChiSono";
 
 function App() {
   return (
-    <div className="App bg-neutral-50">
+    <div className="App bg-white">
  
       <BrowserRouter>
     

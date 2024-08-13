@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import ApproccioTerapeutico from "../Components/Sezioni/ApproccioTerapeutico";
-import Article from "../Components/Article"
+import Contatti from "../Components/Contatti";
 
 function Approccio() {
   return (
@@ -9,7 +9,7 @@ function Approccio() {
       <Navbar />
       <main className="">
         <ApproccioTerapeutico />
-        <Article />
+        <Contatti />
       </main>
     </>
   );

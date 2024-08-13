@@ -3,27 +3,27 @@ import logo from "./../icone/icons8-psicologia-100.png";
 function Footer() {
   return (
     <>
-      <footer class="bg-slate-100 ">
+      <footer class="bg-sky-50 pt-12 ">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-              <div class="flex items-center">
+              <div class="flex items-center ">
                 <img
                   src={logo}
-                  class=" w-12 p-0 mr-2"
+                  class=" w-12 mr-2"
                   alt="Paolo Valentini Logo"
                 />
-                <span class="self-center lg:text-2xl font-semibold whitespace-nowrap  ">
-                  <a className="hover:text-gray-400" href="/">Paolo Valentini Psicologo</a>
+                <span class="self-center lg:text-2xl font-semibold whitespace-nowrap text-slate-700  ">
+                  <a className="hover:text-sky-100" href="/">Paolo Valentini Psicologo</a>
                 </span>
               </div>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">
+                <h2 class="mb-6 text-sm font-semibold text-slate-700 uppercase ">
                   Risorse
                 </h2>
-                <ul class="text-gray-500 font-medium">
+                <ul class="text-slate-800 font-medium">
                   <li class="mb-4">
                     <a href="/chi-sono" class="hover:underline">
                       Chi sono
@@ -37,13 +37,13 @@ function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                <h2 class="mb-6 text-sm font-semibold text-slate-700 uppercase">
                   Seguimi
                 </h2>
-                <ul class="text-gray-500  font-medium">
+                <ul class="text-slate-800  font-medium">
                   <li class="mb-4">
                     <a
-                      href="https://www.facebook.com/profile.php?id=61560065947231"
+                      href="https://www.facebook.com/profile.php?id=61580065947231"
                       class="hover:underline "
                     >
                       Facebook
@@ -52,10 +52,10 @@ function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                <h2 class="mb-6 text-sm font-semibold text-slate-700 uppercase">
                   Deontologia
                 </h2>
-                <ul class="text-gray-500 font-medium">
+                <ul class="text-slate-800 font-medium">
                   <li class="mb-4">
                     <a
                       href="https://www.psy.it/la-professione-psicologica/codice-deontologico-degli-psicologi-italiani/codice-deontologico-vigente/"
@@ -68,9 +68,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+          <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center">
+            <span class="text-sm text-slate-800 sm:text-center">
               © 2024{" "}
               <a href="/" class="hover:underline">
                 Paolo Valentini
@@ -79,13 +79,13 @@ function Footer() {
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a
-                href="https://www.facebook.com/profile.php?id=61560065947231"
-                class="text-gray-500 hover:text-gray-900 "
+                href="https://www.facebook.com/profile.php?id=61580065947231"
+                class="text-slate-800 hover:text-sky-50 "
               >
                 <svg
                   class="w-4 h-4"
                   aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/7000/svg"
                   fill="currentColor"
                   viewBox="0 0 8 19"
                 >
@@ -99,7 +99,7 @@ function Footer() {
               </a>
             </div>
           </div>
-         <p className="text-xs"> Icons by <a href="https://icons8.it/" className=" underline">Icons8</a></p>
+         <p className="text-xs text-slate-700"> Icons by <a href="https://icons8.it/" className=" underline">Icons8</a></p>
         </div>
       </footer>
     </>

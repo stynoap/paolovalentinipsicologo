@@ -3,7 +3,7 @@ import TitleSection from "../TitleSection";
 import SubTitles from "../SubTitles";
 // import { useNavigate } from "react-router-dom";
 // import piantina from "../../icone/piantina.jpeg";
-import congiunzioni from "../../icone/congiunzioni.jpeg";
+import passignano from "../../icone/passignano.jpg";
 // import ghianda from "../../icone/ghianda.jpg";
 
 function ApproccioTerapeutico() {
@@ -29,7 +29,7 @@ function ApproccioTerapeutico() {
               <div
                 className="h-72 lg:w-8/12 w-full bg-center bg-no-repeat lg:float-left mr-10 bg-cover rounded-lg mb-20"
                 style={{
-                  backgroundImage: `url(${congiunzioni})`,
+                  backgroundImage: `url(${passignano})`,
                 }}
               ></div>
               <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
@@ -38,7 +38,7 @@ function ApproccioTerapeutico() {
                 imperfezioni. La vita richiede per la sua realizzazione non la
                 perfezione, ma la pienezza" 
               </p>
-              <p>C.G. Jung</p>
+              <p className="mb-5 italic">C.G. Jung</p>
 
          
 
