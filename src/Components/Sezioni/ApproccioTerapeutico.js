@@ -21,8 +21,7 @@ function ApproccioTerapeutico() {
         <div className="lg:w-8/12 ">
           <div className="mt-14 leading-9 gap-4 flex flex-col  text-slate-900 tracking-wide font-medium mx-10 text-left items-center w-fit">
             <div>
-
-            <SubTitles
+              <SubTitles
                 text="La psicologia
               analitica"
               />
@@ -32,15 +31,13 @@ function ApproccioTerapeutico() {
                   backgroundImage: `url(${passignano})`,
                 }}
               ></div>
-              <p className="text-xs leading-7 italic mb-9 lg:mt-0 mt-4">
+              <p className="text-xl leading-7 tracking-wide italic mb-9 lg:mt-0 mt-4">
                 {" "}
                 "Non c'è luce senza ombre e non c'è pienezza psichica senza
                 imperfezioni. La vita richiede per la sua realizzazione non la
-                perfezione, ma la pienezza" 
+                perfezione, ma la pienezza"
               </p>
               <p className="mb-5 italic">C.G. Jung</p>
-
-         
 
               <p className="clear-both">
                 La psicologia analitica è la psicologia di Carl Gustav Jung. La
@@ -61,16 +58,6 @@ function ApproccioTerapeutico() {
                 percorso che mira non alla perfezione ma alla completezza e alla
                 realizzazione personale.
               </p>
-              <p>
-                Con James Hillman il processo di indivuduazione non avrà come
-                scopo la realizzazione del sé individale ma dei singoli
-                immaginari. Scompaiono le parole inconscio e coscienza, ogni
-                immagine è archetipica e l'obiettivo della terapia non è più
-                portare a coscienza ciò che era inconscio con la partecipazione
-                diretta del soggetto e dell'Io ma rimemorare le immagini
-                attraverso i racconti
-              </p>
-             
             </div>
             <div>
               <SubTitles
@@ -79,27 +66,33 @@ function ApproccioTerapeutico() {
               />
 
               <p className="clear-both">
-                Il pricincio cardine della psicologia Archetipica risulta
-                nell'attribuire l'origine dei processi psichici alla psiche,
-                compresa la malattia. James Hillman è il fondatore della
-                psicologia archetipica. Si distacca dalle prospettive della
-                psicologia moderna, rielabora la tradizione immaginativa di C.G.
-                Jung e rimette al centro del suo campo di studi un'idea antica e
-                universale:l'idea di anima. L'anima, in greco psyche è soffio
-                vitale e essenza energetica della vita. L'anima intesa però non
-                come sostanza ma come prospettiva e visuale sulle cose. La
-                psiche attraverso la fantasia svolge un attività creativa
-                costante in cui le immagini e le rappresentazioni immaginative
-                sono i suoi dati basilari, materia prima e prodotto finito allo
-                stesso tempo, esse costituiscono le vie d'accesso alla
-                conoscenza dell'anima. Alla radice dell'anima ci sono gli
-                archetipi i modelli primari e profondi del funzionamento
-                psichico, pattern of beahviour che influenzano il nostro modo di
-                vedere noi stessi e il mondo e di agire in questo rapporto. La
-                loro primarietà ci consente di concepire gli eventi che accadono
-                in una prospettiva nella quale possiamo collegare quanto avviene
-                dentro di noi a quanto avviene a tutti gli individui nel corso
-                di ogni tempo e luogo.
+                James Hillman è il fondatore della psicologia archetipica.{" "}
+                <br />
+                Con James Hillman il processo di indivuduazione non avrà come
+                scopo la realizzazione del sé individale ma dei singoli
+                immaginari. Scompaiono le parole inconscio e coscienza, ogni
+                immagine è archetipica e l'obiettivo della terapia non è più
+                portare a coscienza ciò che era inconscio con la partecipazione
+                diretta del soggetto e dell'Io ma rimemorare le immagini
+                attraverso i racconti. <br />
+                Egli si distacca dalle prospettive della psicologia moderna,
+                rielabora la tradizione immaginativa di C.G. Jung e rimette al
+                centro del suo campo di studi un'idea antica e universale:l'idea
+                di anima. L'anima, in greco psyché(aggiungere accento) è soffio
+                vitale e essenza energetica della vita. L'anima è intesa come
+                prospettiva e visuale sulle cose. La psiche, attraverso la
+                fantasia svolge un attività creativa costante in cui le immagini
+                e le rappresentazioni immaginative sono i suoi dati basilari,
+                materia prima e prodotto finito allo stesso tempo, esse
+                costituiscono le vie d'accesso alla conoscenza dell'anima. Alla
+                radice dell'anima ci sono gli archetipi, i modelli primari e
+                profondi del funzionamento psichico, pattern of beahviour che
+                influenzano il nostro modo di vedere noi stessi, il mondo e di
+                muoversi in questo rapporto. La primarietà degli archetipi ci
+                consente di concepire gli eventi che accadono in una prospettiva
+                nella quale possiamo collegare quanto avviene dentro di noi a
+                quanto avviene a tutti gli individui nel corso di ogni tempo e
+                luogo.
               </p>
             </div>
             {/* <SecondaryButton
@@ -109,7 +102,6 @@ function ApproccioTerapeutico() {
               text="Approfondisci"
             /> */}
           </div>
-          
         </div>
       </div>
     </>

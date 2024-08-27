@@ -27,8 +27,7 @@ function About() {
               Ho conseguito la laurea in Psicologia presso l'Università di
               Urbino e sono iscritto all'Albo A dell'Ordine degli psicologi
               delle Marche (n°3136). La mia formazione continua attraverso corsi
-              e aggiornamenti per garantire un supporto psicologico basato sulle
-              più recenti evidenze scientifiche.
+              e aggiornamenti per garantire un supporto psicologico basato sulla letteratura scientifica.
             </p>
 
             <p className="mb-6">

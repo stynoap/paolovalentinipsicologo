@@ -4,12 +4,12 @@ import terapia from "../../icone/icons8-psicoterapia-100.png"
 function SostegnoPsicologico() {
   return (
     <>
-      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center mt-14 bg-white py-12 ">
+      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center mt-14 bg-white lg:py-12 ">
         <TitleSection text="Il sostegno psicologico" />
         <div className="h-20 bg-no-repeat w-6/12 my-6 bg-center"  style={{
                 backgroundImage: `url(${terapia})`,
               }}></div>
-        <div className="w-4/5 py-7 text-xl leading-9 text-slate-900 ">
+        <div className="w-4/5 py-7 lg:text-xl lg:leading-9 leading-7 text-slate-700 text-left lg:text-center ">
           <p className="mb-10">
             <b >Il sostegno psicologico</b> si struttura in un numero iniziale
             flessibile ma comunque minore di <b>5 sedute iniziali.</b> É una prima fase
