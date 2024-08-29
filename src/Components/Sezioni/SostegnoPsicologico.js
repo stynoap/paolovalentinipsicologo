@@ -4,7 +4,7 @@ import terapia from "../../icone/icons8-psicoterapia-100.png"
 function SostegnoPsicologico() {
   return (
     <>
-      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center mt-14 bg-white lg:py-12 ">
+      <div id="sostegno-psicologico" className="w-full flex flex-col justify-center items-center  bg-amber-50 lg:py-12 ">
         <TitleSection text="Il sostegno psicologico" />
         <div className="h-20 bg-no-repeat w-6/12 my-6 bg-center"  style={{
                 backgroundImage: `url(${terapia})`,

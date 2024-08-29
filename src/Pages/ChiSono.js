@@ -17,9 +17,9 @@ function About() {
     <>
       <Navbar />
       <section id="about" className="bg-neutral-50 py-16">
-        <div className="px-6 lg:px-20 text-md">
+        <div className="px-6 lg:px-20 text-md ">
           {/* Sezione 1: Perché faccio quello che faccio */}
-          <div className="mb-16 text-left leading-relaxed">
+          <div className="mb-16 text-left leading-relaxed  bg-amber-50 p-10 rounded-md">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">
               Formazione e Background
             </h2>
@@ -74,7 +74,7 @@ function About() {
             </p>
           </div>
 
-          <div className="mb-16 text-left leading-relaxed">
+          <div className="mb-16 text-left leading-relaxed  bg-emerald-50 p-10 rounded-md">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">
               Esperienze nel campo lavorativo
             </h2>
